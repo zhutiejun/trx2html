@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I got a result file of some ordered (and nested) Coded UI Tests running with VS2010 and generated the HTML file from the results. \n \nThe report only shows the total number of test methods and the number of passed/failed tests. \nIt does not show the names of test single methods and if they passed/failed neither for the ordered Test nor for the singe tests….\n \n(Attached Image)\nAttatched trx & html\n \nIs Coded UI Tests respectively nested Ordered Tests not supported?\nIs this a known issue?\nOr is there missing some thing?\n \n \nI also tried beta 0.7. Only received exceptions …\n \nD:\\trx2html.0.7>trx2html.exe \"… 2011-07-26 18_11_01.trx\"\ntrx2html.exe\n  Create HTML reports of VSTS TestRuns. (c)rido'11\nversion:0.7.0.39336\n \nProcessing vs2010 trx file\n \nUnhandled Exception: System.NullReferenceException:  Object reference not set to an instance of an object.\n   at trx2html.Parser.TrxParser.<>c__DisplayClass11.<Parse>b__5(XElement u)\n   at System.Linq.Enumerable.<>c__DisplayClass12`3.<CombineSelectors>b__11(TSource x)\n   at System.Linq.Enumerable.<>c__DisplayClass12`3.<CombineSelectors>b__11(TSource x)\n   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()\n   at System.Linq.Enumerable.<JoinIterator>d__61`4.MoveNext()\n   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)\n   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__0.MoveNext()\n   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\n   at trx2html.Parser.TestRunResult..ctor(String name, String runUser, IEnumerable`1 items)\n   at trx2html.Parser.TrxParser.Parse(String filePath)\n   at trx2html.ReportGenerator.GenerateReport(String fileName)\n   at trx2html.Program.Main(String[] args)",
+    "LastUpdatedDate": "2013-11-26T22:38:22.44-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2011-07-27T03:11:45.64-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "html report not complet for ordered(&nested) CodedUITests (0.7 only exceptions)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 13990
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4019,
+      "FileName": "trx2html_failed.zip",
+      "DownloadUrl": ".\\4019"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I also came across this exception, any solution of this? can't convert files which have ordered tests.\r\n\r\nContact me if you need the trx file",
+      "PostedDate": "2013-11-26T22:25:30.6-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-26T22:38:22.44-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

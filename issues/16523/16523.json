@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "If a trx file has a test that has an unhandled exception then trx2html will crash when parsing the file. There are a couple of examples of this in other bugs, and they will usually say \"The agent process was stopped while the test was running.\"\n\nI have attached a patch that seems to correct the crash and treat them as failing tests.",
+    "LastUpdatedDate": "2013-11-20T07:50:20.587-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2013-11-20T07:50:15.487-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Crash if trx has a test that had an unhandled exception",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 16523
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4834,
+      "FileName": "patch.txt",
+      "DownloadUrl": ".\\4834"
+    }
+  ],
+  "Comments": []
+}

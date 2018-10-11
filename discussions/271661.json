@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "668213",
+    "ThreadId": "271661",
+    "Html": "\r\n<p>Hi, I have the HTML file generated for a TRX file after running an ordered test.\r\n<br>\r\nThe ordered test is collection of test methods from about&nbsp;4 different classes and namespaces arranged in the order I want the VSTS to run.<br>\r\nThe report only shows the total number of test methods and the number passed/failed. It does not show the names of test methods and if the test passed/failed for a particular test method.</p>\r\n<p>Can you please help me on this issue.<br>\r\n<br>\r\nThanks,<br>\r\nChamara</p>\r\n",
+    "PostedDate": "2011-09-06T10:57:49-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

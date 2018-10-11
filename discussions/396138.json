@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "914800",
+    "ThreadId": "396138",
+    "Html": "\r\n<p>First, trx2html is working wonders on most of my TRX files. It is producing the kind of reports my manager has been wanting for some time. Thank you!</p>\r\n<p>Second, a number of the tests I run are Data-Driven Tests that use CSVs or Access DBs as driver files. The test runs a number of iterations based on the rows in the data sources. The results presented in the Test Results window is a one-line Pass/Fail summary\r\n of the TestMethod. Opening the context menu and clicking &quot;View Test Result Details&quot; opens another window that shows the results for each Data Row in the driver file.</p>\r\n<p>Can support for this type test result be added to trx2html? Perhaps someone else has already resolved this situation?</p>\r\n<p>I have yet to grab the code and see how this might be implemented. Before I do, however I want to be sure I'm not duplicating another effort needlessly.</p>\r\n<p>Please advise and thanks!</p>\r\n<p>-Brandon</p>\r\n",
+    "PostedDate": "2012-09-19T13:19:09.66-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

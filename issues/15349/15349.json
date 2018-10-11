@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\n \nI am using the latest build and I am seeing this error.  TRX file attached.  Please help.  I love your program!\n \n \n \nPS D:\\trx> .\\trx2html.exe '.\\testautouser_TESTAUTO1 2012-06-23 12_24_07.trx'\ntrx2html.exe\n  Create HTML reports of VSTS TestRuns. (c)rido'11\nversion:0.7.2.3739\n \nProcessing vs2010 trx file\n \nUnhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.\n   at trx2html.Parser.TrxParser.<Parse>b__c(<>f__AnonymousType3`2 <>h__TransparentIdentifier3)\n   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\n   at trx2html.Parser.TestRunResult..ctor(String name, String runUser, IEnumerable`1 items)\n   at trx2html.Parser.TrxParser.Parse(String filePath)\n   at trx2html.ReportGenerator.GenerateReport(String fileName)\n   at trx2html.Program.Main(String[] args)",
+    "LastUpdatedDate": "2013-02-14T12:38:58.3-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2012-06-23T13:29:49.51-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unhandled exception using 0.7.2",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 15349
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4451,
+      "FileName": "testautouser_TESTAUTO1 2012-06-23 12_24_07.trx",
+      "DownloadUrl": ".\\4451"
+    }
+  ],
+  "Comments": []
+}

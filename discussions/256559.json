@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "608106",
+    "ThreadId": "256559",
+    "Html": "\r\n<p>http://trxviewer.codeplex.com/</p>\r\n<p>Just wondering...</p>\r\n<p>Only immediate difference is that provides a web hosting/accessible platform for viewing the results. Beyond that, one has to try out the 2 tools to know how they compare to each other.</p>\r\n",
+    "PostedDate": "2011-05-05T13:58:29.457-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "617218",
+    "ThreadId": "256559",
+    "Html": "<p>You can see some screenshots of trxviewer here:</p>\r\n<p>http://trxviewer.codeplex.com/documentation</p>\r\n<p>I like trx2html better because it can be integrated into a build process, and email results delivered as part of a build notification to all developers.&nbsp;</p>",
+    "PostedDate": "2011-05-24T02:56:14.43-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,971 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9535c386-e5c1-45b5-abec-9cb06a60fd56" name="rmpablos@TM3BUILD2 2012-01-20 13:29:42_Any CPU_Debug" runUser="EUROPE\rmpablos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="128aec19-eb6e-48e9-920a-cbe6a15c4fd3">
+    <Deployment userDeploymentRoot="e:\_buildDir\64\TM3\CI.Batch\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="rmpablos_TM3BUILD2 2012-01-20 13_29_42_Any CPU_Debug" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-20T13:29:42.2272712+01:00" queuing="2012-01-20T13:29:42.8790636+01:00" start="2012-01-20T13:29:42.9650572+01:00" finish="2012-01-20T13:29:56.4748472+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="98" executed="98" passed="94" error="4" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TM3BUILD2" outcome="Warning" timestamp="2012-01-20T13:29:42.8732004+01:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MySql.Data' directly or indirectly referenced by the test container 'e:\_builddir\64\tm3\ci.batch\binaries\tm3batch.scheduler.tests.dll' was not found.</Text>
+        <Exception>System.Exception: System.Exception: System.Exception: Exception of type 'System.Exception' was thrown.</Exception>
+      </RunInfo>
+      <RunInfo computerName="TM3BUILD2" outcome="Warning" timestamp="2012-01-20T13:29:42.8732004+01:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Npgsql' directly or indirectly referenced by the test container 'e:\_builddir\64\tm3\ci.batch\binaries\tm3batch.scheduler.tests.dll' was not found.</Text>
+        <Exception>System.Exception: System.Exception: System.Exception: Exception of type 'System.Exception' was thrown.</Exception>
+      </RunInfo>
+      <RunInfo computerName="TM3BUILD2" outcome="Warning" timestamp="2012-01-20T13:29:42.8732004+01:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Data.SqlServerCe' directly or indirectly referenced by the test container 'e:\_builddir\64\tm3\ci.batch\binaries\tm3batch.scheduler.tests.dll' was not found.</Text>
+        <Exception>System.Exception: System.Exception: System.Exception: Exception of type 'System.Exception' was thrown.</Exception>
+      </RunInfo>
+      <RunInfo computerName="TM3BUILD2" outcome="Warning" timestamp="2012-01-20T13:29:42.8732004+01:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Data.SQLite' directly or indirectly referenced by the test container 'e:\_builddir\64\tm3\ci.batch\binaries\tm3batch.scheduler.tests.dll' was not found.</Text>
+        <Exception>System.Exception: System.Exception: System.Exception: Exception of type 'System.Exception' was thrown.</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Execute_LineSequential_WithSum_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="6b51e066-50e2-aed3-ec03-2edf7a8322c5">
+      <DeploymentItems>
+        <DeploymentItem filename="SortFiles" />
+      </DeploymentItems>
+      <Execution id="ede25bbb-e8e7-4e95-9295-d0e48797c27b" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_LineSequential_WithSum_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_Automatic_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="b06a67c8-69f6-85fd-0cdd-426ccbcd3471">
+      <Execution id="f94b8f45-9070-4640-a05b-acec2124c67f" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMSchedulerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Automatic_OK" />
+    </UnitTest>
+    <UnitTest name="ProcessJobWithSchedule" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.agent.tests.dll" id="bb8b07c2-6e2e-d1a1-c58e-53476a7bac37">
+      <Execution id="68ad670d-1115-43b6-a6e0-c6b70a226813" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Agent.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Agent.Tests.BatchAgentTest, TM3Batch.Agent.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcessJobWithSchedule" />
+    </UnitTest>
+    <UnitTest name="OrderByDescending_Numeric" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="034aaaf9-a95c-1ce3-6f76-7ac376bbd1c2">
+      <Execution id="f63bfa7c-b5c9-43a4-8a2b-b9c3b12969a4" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderByDescending_Numeric" />
+    </UnitTest>
+    <UnitTest name="Execute_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="48d8d385-91e0-1c3f-76bf-ebd20402d3ac">
+      <DeploymentItems>
+        <DeploymentItem filename="BlobFiles" />
+      </DeploymentItems>
+      <Execution id="b53998e5-7857-499d-a71b-76449c740e3d" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BlobDownloadTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_OK" />
+    </UnitTest>
+    <UnitTest name="ProcessJobExecuteException" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.agent.tests.dll" id="98122b40-85fb-a5a8-93f8-b86f3e78a75c">
+      <Execution id="a6ae1764-ed48-4669-8ebc-7c7c6c75c479" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Agent.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Agent.Tests.BatchAgentTest, TM3Batch.Agent.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcessJobExecuteException" />
+    </UnitTest>
+    <UnitTest name="ProjWithParametersCtor_Semicolon" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="413c69a2-6a97-7048-1245-958ecb331601">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="65c37856-54f9-4c98-9c30-9434a989bfb4" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjWithParametersCtor_Semicolon" />
+    </UnitTest>
+    <UnitTest name="ReaderWithParametersCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="8f3fa0ac-7e87-02c7-c55f-5bc2717a9834">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="5a872667-899c-4205-90bf-e59b88f43c72" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReaderWithParametersCtor" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_ExpiredJob" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="2b6de4df-d117-1f43-75d3-73368c7eaf94">
+      <Execution id="114c6a3a-ca5f-401f-bdb0-76553be180d1" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_ExpiredJob" />
+    </UnitTest>
+    <UnitTest name="ExecuteWithParameters" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="b5d616e7-f640-9d6e-6948-6aacf5eadec6">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="fcbdb52b-d6db-4c28-a6b8-f5d0e779f65a" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteWithParameters" />
+    </UnitTest>
+    <UnitTest name="Exectue_NullItem" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="c02a8efd-46f3-ce30-17b3-777898821313">
+      <Execution id="e6141721-f665-4d1c-bef0-3c38a2ebf4af" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMSchedulerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Exectue_NullItem" />
+    </UnitTest>
+    <UnitTest name="Execute_Download_ClientThrowsException" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="0ca32266-3996-e23e-2715-3ac7802afb4d">
+      <DeploymentItems>
+        <DeploymentItem filename="FtpFiles" />
+      </DeploymentItems>
+      <Execution id="0ae2d490-14b5-423b-a80c-83017f540912" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.FtpTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Download_ClientThrowsException" />
+    </UnitTest>
+    <UnitTest name="ExecuteSubmitJobJob" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="bb8e5c26-8eb6-e7c3-11ea-5de3841d06da">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="cbf185bf-a8df-4f1b-8445-e39721ae4b59" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SubmitJobTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteSubmitJobJob" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Daily_OnceAt_NullCurrent_Past_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="a074c6bd-f75f-3155-24e3-b5be6a49a928">
+      <Execution id="f159c638-6e3e-40dc-a1c9-4f3377b2de78" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Daily_OnceAt_NullCurrent_Past_OK" />
+    </UnitTest>
+    <UnitTest name="TargetFinished_WithError_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="9977c1fb-0960-d30e-a638-fa6c7af8fb11">
+      <Execution id="0317bd97-818c-49fd-95a5-6eab938fa2b6" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TargetFinished_WithError_OK" />
+    </UnitTest>
+    <UnitTest name="OrderBy_Numeric" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="3fe18c32-abb2-5641-e5c3-db8b60c3dc5e">
+      <Execution id="7c4656d1-eae9-40a3-9b88-423887461499" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderBy_Numeric" />
+    </UnitTest>
+    <UnitTest name="CreateForUploading_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="f53aa185-fa1b-3718-6c04-311ef5ec0bcd">
+      <Execution id="0a53a387-a397-4c92-9653-60bf41aff9d5" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.FtpTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateForUploading_OK" />
+    </UnitTest>
+    <UnitTest name="ReaderWithTargetAndLoggerCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="b0d5d992-f343-f54a-85e1-171400cb5916">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="dd47d532-fff2-4bae-8882-2822ef955946" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReaderWithTargetAndLoggerCtor" />
+    </UnitTest>
+    <UnitTest name="Execute_LineSequential_Omit_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="fd7b7ad3-fcf8-a1ff-0751-57c5d8a97036">
+      <DeploymentItems>
+        <DeploymentItem filename="SortFiles" />
+      </DeploymentItems>
+      <Execution id="a881a42c-16d7-4431-a242-29e1ab2bfdc4" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_LineSequential_Omit_OK" />
+    </UnitTest>
+    <UnitTest name="ProgramAcceptingFileThatNotExistsCreatedWhenNotFoundOK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="1cd71ad7-c72f-38fe-d39a-c5ee170dcf80">
+      <Execution id="dd86c4ab-9e53-4b8f-8bab-ba5bf1aaa481" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BatchProgramTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProgramAcceptingFileThatNotExistsCreatedWhenNotFoundOK" />
+    </UnitTest>
+    <UnitTest name="OrderBy_Empty" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="bc0d1bac-63b4-7232-25fe-6b2abcfdc912">
+      <Execution id="cb20d18f-92f7-4886-ac11-ad676007baf8" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderBy_Empty" />
+    </UnitTest>
+    <UnitTest name="ProcessJob_GetPendingJobReturnNull" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.agent.tests.dll" id="c4935570-7525-afbe-c812-51955dcbd6e8">
+      <Execution id="b7de14b1-3e44-4044-97f2-42aae15bb11b" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Agent.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Agent.Tests.BatchAgentTest, TM3Batch.Agent.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcessJob_GetPendingJobReturnNull" />
+    </UnitTest>
+    <UnitTest name="ReaderCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="e4fa59cb-c4ee-2970-1895-b3669759019f">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="b522f540-cd1e-4a5f-a687-95fa274d5f5d" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReaderCtor" />
+    </UnitTest>
+    <UnitTest name="ProcessJob_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.agent.tests.dll" id="6d89936e-1b0f-7c87-96b9-3492e739f7c6">
+      <Execution id="a7a5ec0f-940b-4a9c-9dd4-926648ace280" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Agent.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Agent.Tests.BatchAgentTest, TM3Batch.Agent.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcessJob_OK" />
+    </UnitTest>
+    <UnitTest name="ScheduleItemCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="4a591b85-5ee1-9fc8-2d47-53bb0e2a4545">
+      <Execution id="4a847c64-1c35-425e-b363-f2217d524e73" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ScheduleItemCtor" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_OneTime_OnceAt_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="93970965-2a3e-8f1d-11cc-538ee6bff2c0">
+      <Execution id="28077b89-7bc2-4459-ae8a-912c4830bb38" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_OneTime_OnceAt_OK" />
+    </UnitTest>
+    <UnitTest name="ProjWithTargetCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="5aff2ce5-6494-e743-f41f-941635f75aec">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="c209a67d-d1e9-4f5a-a6b4-783503b4a8b5" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjWithTargetCtor" />
+    </UnitTest>
+    <UnitTest name="TargetFinished_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="7d6b9420-ba37-f9f0-9a67-6cf923a1ea13">
+      <Execution id="8b1b17bf-d0c8-4a78-adfa-890b4c919b00" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TargetFinished_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="7c94585a-0b15-cf67-b4e5-012dd0de5fde">
+      <Execution id="e4079bb3-ba36-46c9-9442-5bed36334c56" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PurgeTableStorageTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Weekly_OnceAt1_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="562b1d26-e517-58f5-98e5-1532ac2b72a8">
+      <Execution id="6680501f-190a-4d49-bbdb-9c67f9b1dea4" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Weekly_OnceAt1_OK" />
+    </UnitTest>
+    <UnitTest name="OrderBy_Twice" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="267eebe9-e52b-6fbd-0f14-ccc0f75efb34">
+      <Execution id="f317abf0-f16d-4a9c-a9ac-226f4bc59939" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderBy_Twice" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Monthly_OnceAt1_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="0b42806c-fe23-0bf9-b430-3b44429f32aa">
+      <Execution id="a17d7092-c87c-4726-8307-41afefa9058c" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Monthly_OnceAt1_OK" />
+    </UnitTest>
+    <UnitTest name="ProjectFinished_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="ab0e48f5-9912-f70a-05e5-e145f1ff59bb">
+      <Execution id="a1ede214-85ae-45c7-874d-45a3784c473b" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjectFinished_OK" />
+    </UnitTest>
+    <UnitTest name="ProgramAcceptingFileThatExists" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="a7284ff0-0c3b-be5d-2ba2-927685764035">
+      <Execution id="9e1d95dc-560c-4e65-be6f-3a78db474884" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BatchProgramTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProgramAcceptingFileThatExists" />
+    </UnitTest>
+    <UnitTest name="OrderBy" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="270ecb77-5697-913c-7640-b42ee05d1fde">
+      <Execution id="9d94ec9f-361c-46b9-ac00-b5463e8b189d" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderBy" />
+    </UnitTest>
+    <UnitTest name="Execute_ProjectRootElementThrowsException" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="203c4401-5830-103a-4ce2-51aa9eb54f90">
+      <Execution id="1ce91908-ff21-47f4-ba2e-b8f586cf6ea3" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMSchedulerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_ProjectRootElementThrowsException" />
+    </UnitTest>
+    <UnitTest name="ProjectFinished_Partially" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="e0238b71-d156-167b-a5f2-44d504fe39dc">
+      <Execution id="f258e09b-fb18-4b50-b626-5a604ac37d05" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjectFinished_Partially" />
+    </UnitTest>
+    <UnitTest name="TargetStarted_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="37a30acc-9992-5353-b0e6-a2cc29e1e842">
+      <Execution id="51ce0aa6-6d8e-4bef-9614-28e564f1cc9b" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TargetStarted_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_Upload_InvalidFile" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="c6a7ffeb-687e-427a-aa17-4c30ed03ce44">
+      <Execution id="280db83d-33f8-470c-92ff-e6a8da60fa7e" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.FtpTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Upload_InvalidFile" />
+    </UnitTest>
+    <UnitTest name="FileType_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="815b6a30-d92f-2c0f-8e07-915eca10b7b9">
+      <Execution id="427298f5-a5db-40b8-bdf2-c35c27f2904b" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FileType_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_NullSchedule" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="2879094b-7fd4-4bbf-b4a4-5d10d78ba2d1">
+      <Execution id="691466d8-605a-4b6d-b893-5501b92e72d8" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_NullSchedule" />
+    </UnitTest>
+    <UnitTest name="Execute_Download_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="2308d8bd-563b-2b63-9922-68564615abed">
+      <Execution id="2e04716c-05c6-4d7b-811f-1e14b0912141" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.FtpTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Download_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Weekly_OnceAt_NullCurrent_Future_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="22850142-30f0-75be-2526-7567af771caf">
+      <Execution id="65fc911c-1b6a-40fe-8da7-c61088914177" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Weekly_OnceAt_NullCurrent_Future_OK" />
+    </UnitTest>
+    <UnitTest name="ProjWithLoggerCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="b30dc45d-c95d-df58-4513-ba7968f021f5">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="6f164e4e-fafc-4fe8-a54b-9a6009a32993" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjWithLoggerCtor" />
+    </UnitTest>
+    <UnitTest name="GroupBy" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="fea3a4f6-5323-f99c-7e57-e01857bab1b8">
+      <Execution id="4698acf5-3575-4213-a3da-74f33ac638f8" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterEqualityComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GroupBy" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_OneTime_NullCurrent_OnceAt_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="d4d376fe-42ea-4973-0696-26d6d197304b">
+      <Execution id="472ae778-7c7e-4b60-b5fc-11bec05d688c" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_OneTime_NullCurrent_OnceAt_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_Upload_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="91a76986-0cb7-5f0d-741d-a22ea45cf55b">
+      <DeploymentItems>
+        <DeploymentItem filename="FtpFiles" />
+      </DeploymentItems>
+      <Execution id="da6b087c-b666-44fa-b65b-d8a6a3116b3a" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.FtpTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Upload_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_FileIn_NotFound" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="6d87e4f0-aacb-4cd5-ae85-d11350125cd5">
+      <DeploymentItems>
+        <DeploymentItem filename="MailMergeFiles" />
+      </DeploymentItems>
+      <Execution id="a1caf4c7-fd00-41f9-9ba4-5d29b1a8bbab" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.MailMergeTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_FileIn_NotFound" />
+    </UnitTest>
+    <UnitTest name="Execute_CleanerThrowsException" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="771b833d-b0a7-d68c-9b12-594506e84415">
+      <Execution id="7ac5d928-5091-414b-b56e-75d7a8f767d0" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PurgeTableStorageTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_CleanerThrowsException" />
+    </UnitTest>
+    <UnitTest name="ProjWithParametersCtor_Comma" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="eb1f8269-0221-d649-04fe-790fe00c17d0">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="8db6df01-ea29-4c53-b49a-ca8d79ac5214" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjWithParametersCtor_Comma" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Weekly_OnceAt_NullCurrent_Past_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="dd9ba7df-1450-912e-caa8-fff91028b246">
+      <Execution id="9a468526-10cb-4e39-9764-09c77a9bdc0b" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Weekly_OnceAt_NullCurrent_Past_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_Landscape_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="5458ebdf-73a6-30e1-3ef2-ccc1a4343463">
+      <DeploymentItems>
+        <DeploymentItem filename="PdfFiles" />
+      </DeploymentItems>
+      <Execution id="81709abb-4181-4dc1-9c14-e5b11ac84751" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PdfTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Landscape_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Weekly_OnceAt2_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="3d80fae2-dfd1-c813-71de-2040a4e8bf40">
+      <Execution id="dc255c7e-3f06-4a9f-9dd8-8cc9921b6a5c" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Weekly_OnceAt2_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_LineSequential_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="87e85a3f-8468-70d1-8b81-eae8ef3df3b3">
+      <DeploymentItems>
+        <DeploymentItem filename="SortFiles" />
+      </DeploymentItems>
+      <Execution id="c76955b9-1404-4bfe-9316-1a0c65f1dc63" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_LineSequential_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Past1_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="0a58b178-072d-c426-7132-d25e2049d70c">
+      <Execution id="801660c5-8eaa-48c9-b675-e882f2a37867" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Past1_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_Portrait_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="0588f944-72aa-6816-7f68-a3646481f76f">
+      <DeploymentItems>
+        <DeploymentItem filename="PdfFiles" />
+      </DeploymentItems>
+      <Execution id="876bb74d-71a7-4139-ab21-622bc76f4670" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PdfTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Portrait_OK" />
+    </UnitTest>
+    <UnitTest name="Execute" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="2150bbab-784d-fb4a-86e7-a740d84407c8">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="8d551380-7127-43a8-85cf-b7cd03c71e3e" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Future1_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="195439aa-ae79-74c2-ff36-4d8c3f0ead05">
+      <Execution id="105ea125-2979-4475-aaed-170a59b9b61f" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Future1_OK" />
+    </UnitTest>
+    <UnitTest name="OrderBy_Null" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="348cb2aa-3a1b-0494-7acb-53a817bf01e7">
+      <Execution id="d8574822-8742-4f5e-a5bc-049dc57726ce" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderBy_Null" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Future2_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="e53dfa33-05c3-64c3-7a31-06ed6919ce84">
+      <Execution id="9f11c1e9-621e-4aee-9e2f-4a92d1526efc" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Future2_OK" />
+    </UnitTest>
+    <UnitTest name="EmtpyCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="7d2a31c1-2a19-7aaf-9b9d-d1974a9255a6">
+      <Execution id="effe3745-75ef-4cc7-9706-63a0b89f1b78" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PurgeTableStorageTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmtpyCtor" />
+    </UnitTest>
+    <UnitTest name="ReaderWithTargetCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="5e29b1cb-02aa-894a-4ff8-168d83083dab">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="136d473f-9088-4d57-b41c-01bdfb6489b4" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReaderWithTargetCtor" />
+    </UnitTest>
+    <UnitTest name="Execute_FileIn_NotFound" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="f2e94469-ab51-b8c0-9920-d815492daac8">
+      <DeploymentItems>
+        <DeploymentItem filename="PdfFiles" />
+      </DeploymentItems>
+      <Execution id="37668d4e-7629-45ce-a5a2-7fffbb53b31a" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PdfTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_FileIn_NotFound" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Daily_OnceAt_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="e6994e76-0177-11f8-29f1-4c00caba04c3">
+      <Execution id="0eb16e2c-e4d0-49f4-98e0-6bce2a3f14f3" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Daily_OnceAt_OK" />
+    </UnitTest>
+    <UnitTest name="WarningRaised_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="616e5a9c-14a2-f3f5-a832-7dccf9108700">
+      <Execution id="0fc6d8df-47c7-434f-a7f4-6be9d40b4108" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WarningRaised_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Weekly_OnceAt3_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="707c5ced-f6a8-4cac-4577-91d38b8641f1">
+      <Execution id="650419cd-c3f5-4b78-8efe-f4261be1de46" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Weekly_OnceAt3_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Weekly_OnceAt4_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="90c5ce58-3e1a-6653-49cc-d18bac5171b4">
+      <Execution id="fcaaf3a1-5b12-4264-80a9-db76981fdc98" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Weekly_OnceAt4_OK" />
+    </UnitTest>
+    <UnitTest name="Cleaner" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="f04dc708-28be-a93b-7492-ea26ceb53109">
+      <Execution id="888b7faf-8909-439b-b472-9fead372d82e" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PurgeTableStorageTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cleaner" />
+    </UnitTest>
+    <UnitTest name="CreateForDownloading_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="3f1f9c9d-4b0b-d301-05ef-9213b580ec99">
+      <Execution id="280a2641-d57a-4ebd-812d-7809c85f5b66" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.FtpTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateForDownloading_OK" />
+    </UnitTest>
+    <UnitTest name="TargetFinished_WithWaning_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="35d81d53-d46f-8f87-c5cd-4491a968b1be">
+      <Execution id="316109a1-59e5-440d-a43b-56b0b605b24a" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TargetFinished_WithWaning_OK" />
+    </UnitTest>
+    <UnitTest name="ProjectStarted_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="e283f3ef-edcd-575f-a9f5-7315917f8ef7">
+      <Execution id="369390f3-120a-46d1-b2a5-2912df2955e9" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjectStarted_OK" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Monthly_OnceAt2_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="954e400c-4917-53f0-8237-321dd4bcc021">
+      <Execution id="fd27e6cc-980d-43cb-829b-1852f51b8be3" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Monthly_OnceAt2_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_Upload_ClientThrowsException" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="53f46ffd-85ce-c5ab-5897-e593f091ae4b">
+      <DeploymentItems>
+        <DeploymentItem filename="FtpFiles" />
+      </DeploymentItems>
+      <Execution id="9dd3a1bc-07db-4479-b0d4-a4f4895e852a" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.FtpTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Upload_ClientThrowsException" />
+    </UnitTest>
+    <UnitTest name="ErrorRaised_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="beeb1cc9-e6a3-08fd-3706-6f8749a03350">
+      <Execution id="809ba6b2-5fae-4ce1-a092-d69472481ecb" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3.Batch.Tests.Loggers.SqlLoggerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ErrorRaised_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="8eb92a48-a660-482a-c250-a02719295e33">
+      <DeploymentItems>
+        <DeploymentItem filename="MailMergeFiles" />
+      </DeploymentItems>
+      <Execution id="5b59a370-3017-4474-b210-d217c08c0cfd" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.MailMergeTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_SequentialFixedLength_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="31d4bf98-fb2d-bfc9-5a90-1870845bbb41">
+      <DeploymentItems>
+        <DeploymentItem filename="SortFiles" />
+      </DeploymentItems>
+      <Execution id="007f4311-3363-4845-ba42-86e391cf5cc3" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_SequentialFixedLength_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_LineSequential_Include_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="1730f8de-2fb7-8959-1c70-0b7fd5677079">
+      <DeploymentItems>
+        <DeploymentItem filename="SortFiles" />
+      </DeploymentItems>
+      <Execution id="67bd6432-986b-4382-b6a2-ee9a48350c03" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_LineSequential_Include_OK" />
+    </UnitTest>
+    <UnitTest name="EmtpyCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="be32eac3-0202-7f46-961e-e0869ccde4bd">
+      <Execution id="4a324974-82f4-4be8-8338-ab767084c5c5" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmtpyCtor" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Daily_OnceAt_NullCurrent_Future_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="b21ca2b3-5b5b-1bf3-4478-5689b70443ca">
+      <Execution id="9cd46fb0-4a0f-4029-aefe-3b0895728f38" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Daily_OnceAt_NullCurrent_Future_OK" />
+    </UnitTest>
+    <UnitTest name="ProcessJob_GetPendingJobThrowsException" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.agent.tests.dll" id="8a6446ab-d9c0-3b04-caad-f0985c8e925a">
+      <Execution id="17d866ee-0f86-4833-bfe6-b3d877d5357b" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Agent.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Agent.Tests.BatchAgentTest, TM3Batch.Agent.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcessJob_GetPendingJobThrowsException" />
+    </UnitTest>
+    <UnitTest name="Execute_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="340c477e-3a93-8c3e-d4c0-096c983cf82c">
+      <DeploymentItems>
+        <DeploymentItem filename="BlobFiles" />
+      </DeploymentItems>
+      <Execution id="db228afc-9f04-44d4-ae02-673524c12683" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BlobUploadTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_LineSequential_WithSum2_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="2ef58593-defc-9f1a-7743-68b5523ea79a">
+      <DeploymentItems>
+        <DeploymentItem filename="SortFiles" />
+      </DeploymentItems>
+      <Execution id="da8b3d2f-240a-4222-9af8-c6f358c04418" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_LineSequential_WithSum2_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_LineSequential_WithSumNone_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="613d00a7-eff6-eaf0-b657-f2106c9bd925">
+      <DeploymentItems>
+        <DeploymentItem filename="SortFiles" />
+      </DeploymentItems>
+      <Execution id="f5af912c-5a8d-4500-b5f7-1007e287d459" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_LineSequential_WithSumNone_OK" />
+    </UnitTest>
+    <UnitTest name="OrderBy_DifferentLength" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="86c24176-2696-f295-d831-c72428efbd5c">
+      <Execution id="3ac6adef-8d25-4c41-8895-02447625d166" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderBy_DifferentLength" />
+    </UnitTest>
+    <UnitTest name="EmptyCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.agent.tests.dll" id="853f69d8-358f-2e21-a90a-0ea6bb0711f3">
+      <Execution id="7f705316-cd4e-4698-82d3-c8fcae776368" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Agent.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Agent.Tests.BatchAgentTest, TM3Batch.Agent.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmptyCtor" />
+    </UnitTest>
+    <UnitTest name="FileType_InvalidValue" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="db5b162e-5480-3204-0ede-b24a0f03b698">
+      <Execution id="b46f71d4-3ff2-4e2d-a682-7914af196a49" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SortTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FileType_InvalidValue" />
+    </UnitTest>
+    <UnitTest name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Past2_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="61741263-6a5a-2da0-76b2-bb42bb33e92c">
+      <Execution id="1aba5be1-157a-4ac9-8d3b-4c20306c566a" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMCalendarTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Past2_OK" />
+    </UnitTest>
+    <UnitTest name="Execute_Portrait_2_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="241a9271-e8a3-0fed-f07d-68f197ed64e3">
+      <DeploymentItems>
+        <DeploymentItem filename="PdfFiles" />
+      </DeploymentItems>
+      <Execution id="6d3c8131-8280-4882-ac46-1bff0a80a40f" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.PdfTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Portrait_2_OK" />
+    </UnitTest>
+    <UnitTest name="EmtpyCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="5a24c80a-fca9-39e1-7d7a-a5480e304268">
+      <Execution id="9beadae9-9e95-4179-bb8e-a06b6d41f888" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BlobDownloadTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmtpyCtor" />
+    </UnitTest>
+    <UnitTest name="ExecuteSubmitJobTask" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="5f5a6e1a-46be-0793-57e6-94a3cad1c61c">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="7f6bfe99-6ea6-4345-a9fb-196abbdc6347" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SubmitJobTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteSubmitJobTask" />
+    </UnitTest>
+    <UnitTest name="Execute_Manual_OK" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.scheduler.tests.dll" id="1907c2fc-318f-c48e-af70-8b728f4aa610">
+      <Execution id="266d5461-afec-4fba-80e8-a39b5c1afbf1" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Scheduler.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Scheduler.Tests.TMSchedulerTest, TM3Batch.Scheduler.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Execute_Manual_OK" />
+    </UnitTest>
+    <UnitTest name="ExecuteFakeBatchProgramWithInputAndOutput" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="f198f8a4-4ed2-aa2c-2689-6f7149efef5a">
+      <Execution id="a02673f7-c597-4f67-8f74-c828ef435f22" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BatchProgramTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteFakeBatchProgramWithInputAndOutput" />
+    </UnitTest>
+    <UnitTest name="ProcessManualQueuedJob" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.agent.tests.dll" id="7955b35e-fd29-8562-577a-13615a6a1fd9">
+      <Execution id="8019153b-2078-42e8-ac97-c965337502a3" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Agent.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Agent.Tests.BatchAgentTest, TM3Batch.Agent.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcessManualQueuedJob" />
+    </UnitTest>
+    <UnitTest name="ProjWithParametersCtor_InvalidFormat" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="47922196-6a43-7805-c7a1-275240fe3eac">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="5e76eacb-bb21-4976-afdc-c203604e2ff2" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjWithParametersCtor_InvalidFormat" />
+    </UnitTest>
+    <UnitTest name="EmtpyCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="be7d9637-f76b-de17-4c8f-12ab5979bbcb">
+      <Execution id="f897712c-8d76-43ad-9927-6a473267ffca" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BlobUploadTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmtpyCtor" />
+    </UnitTest>
+    <UnitTest name="OrderByDescending" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="029a5475-324d-2ac0-41c9-3ac428d71ba9">
+      <Execution id="b2a85c6b-771b-4275-951b-857f1245804c" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.SplitterComparerTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderByDescending" />
+    </UnitTest>
+    <UnitTest name="ExecuteFakeBatchProgram" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="20f8642a-6ee6-964e-5132-8f6ec4744b42">
+      <Execution id="45514abb-3704-492e-8d35-4706bae74c18" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.BatchProgramTaskTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteFakeBatchProgram" />
+    </UnitTest>
+    <UnitTest name="ProjCtor" storage="c:\users\rmpablos\appdata\local\temp\2\rmpablos_tm3build2 2012-01-20 13_29_42_any cpu_debug\out\tm3batch.runtime.tests.dll" id="d2dbff75-aaba-b353-3987-eb5b8765c008">
+      <DeploymentItems>
+        <DeploymentItem filename="ProjFiles" />
+      </DeploymentItems>
+      <Execution id="34e5b8dc-0787-454f-87a3-90d31ab67df0" />
+      <TestMethod codeBase="e:/_buildDir/64/TM3/CI.Batch/Binaries/TM3Batch.Runtime.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TM3Batch.Runtime.Tests.JobTest, TM3Batch.Runtime.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjCtor" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="853f69d8-358f-2e21-a90a-0ea6bb0711f3" executionId="7f705316-cd4e-4698-82d3-c8fcae776368" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="c4935570-7525-afbe-c812-51955dcbd6e8" executionId="b7de14b1-3e44-4044-97f2-42aae15bb11b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="8a6446ab-d9c0-3b04-caad-f0985c8e925a" executionId="17d866ee-0f86-4833-bfe6-b3d877d5357b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="6d89936e-1b0f-7c87-96b9-3492e739f7c6" executionId="a7a5ec0f-940b-4a9c-9dd4-926648ace280" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="98122b40-85fb-a5a8-93f8-b86f3e78a75c" executionId="a6ae1764-ed48-4669-8ebc-7c7c6c75c479" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="bb8b07c2-6e2e-d1a1-c58e-53476a7bac37" executionId="68ad670d-1115-43b6-a6e0-c6b70a226813" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="7955b35e-fd29-8562-577a-13615a6a1fd9" executionId="8019153b-2078-42e8-ac97-c965337502a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="20f8642a-6ee6-964e-5132-8f6ec4744b42" executionId="45514abb-3704-492e-8d35-4706bae74c18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="f198f8a4-4ed2-aa2c-2689-6f7149efef5a" executionId="a02673f7-c597-4f67-8f74-c828ef435f22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="a7284ff0-0c3b-be5d-2ba2-927685764035" executionId="9e1d95dc-560c-4e65-be6f-3a78db474884" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="1cd71ad7-c72f-38fe-d39a-c5ee170dcf80" executionId="dd86c4ab-9e53-4b8f-8bab-ba5bf1aaa481" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="5a24c80a-fca9-39e1-7d7a-a5480e304268" executionId="9beadae9-9e95-4179-bb8e-a06b6d41f888" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="48d8d385-91e0-1c3f-76bf-ebd20402d3ac" executionId="b53998e5-7857-499d-a71b-76449c740e3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="be7d9637-f76b-de17-4c8f-12ab5979bbcb" executionId="f897712c-8d76-43ad-9927-6a473267ffca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="340c477e-3a93-8c3e-d4c0-096c983cf82c" executionId="db228afc-9f04-44d4-ae02-673524c12683" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="3f1f9c9d-4b0b-d301-05ef-9213b580ec99" executionId="280a2641-d57a-4ebd-812d-7809c85f5b66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="f53aa185-fa1b-3718-6c04-311ef5ec0bcd" executionId="0a53a387-a397-4c92-9653-60bf41aff9d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="0ca32266-3996-e23e-2715-3ac7802afb4d" executionId="0ae2d490-14b5-423b-a80c-83017f540912" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="2308d8bd-563b-2b63-9922-68564615abed" executionId="2e04716c-05c6-4d7b-811f-1e14b0912141" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="53f46ffd-85ce-c5ab-5897-e593f091ae4b" executionId="9dd3a1bc-07db-4479-b0d4-a4f4895e852a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="c6a7ffeb-687e-427a-aa17-4c30ed03ce44" executionId="280db83d-33f8-470c-92ff-e6a8da60fa7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="91a76986-0cb7-5f0d-741d-a22ea45cf55b" executionId="da6b087c-b666-44fa-b65b-d8a6a3116b3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="2150bbab-784d-fb4a-86e7-a740d84407c8" executionId="8d551380-7127-43a8-85cf-b7cd03c71e3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="b5d616e7-f640-9d6e-6948-6aacf5eadec6" executionId="fcbdb52b-d6db-4c28-a6b8-f5d0e779f65a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="d2dbff75-aaba-b353-3987-eb5b8765c008" executionId="34e5b8dc-0787-454f-87a3-90d31ab67df0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="b30dc45d-c95d-df58-4513-ba7968f021f5" executionId="6f164e4e-fafc-4fe8-a54b-9a6009a32993" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="eb1f8269-0221-d649-04fe-790fe00c17d0" executionId="8db6df01-ea29-4c53-b49a-ca8d79ac5214" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="47922196-6a43-7805-c7a1-275240fe3eac" executionId="5e76eacb-bb21-4976-afdc-c203604e2ff2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="413c69a2-6a97-7048-1245-958ecb331601" executionId="65c37856-54f9-4c98-9c30-9434a989bfb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="5aff2ce5-6494-e743-f41f-941635f75aec" executionId="c209a67d-d1e9-4f5a-a6b4-783503b4a8b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="e4fa59cb-c4ee-2970-1895-b3669759019f" executionId="b522f540-cd1e-4a5f-a687-95fa274d5f5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="8f3fa0ac-7e87-02c7-c55f-5bc2717a9834" executionId="5a872667-899c-4205-90bf-e59b88f43c72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="b0d5d992-f343-f54a-85e1-171400cb5916" executionId="dd47d532-fff2-4bae-8882-2822ef955946" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="5e29b1cb-02aa-894a-4ff8-168d83083dab" executionId="136d473f-9088-4d57-b41c-01bdfb6489b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="6d87e4f0-aacb-4cd5-ae85-d11350125cd5" executionId="a1caf4c7-fd00-41f9-9ba4-5d29b1a8bbab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="8eb92a48-a660-482a-c250-a02719295e33" executionId="5b59a370-3017-4474-b210-d217c08c0cfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="f2e94469-ab51-b8c0-9920-d815492daac8" executionId="37668d4e-7629-45ce-a5a2-7fffbb53b31a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="5458ebdf-73a6-30e1-3ef2-ccc1a4343463" executionId="81709abb-4181-4dc1-9c14-e5b11ac84751" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="241a9271-e8a3-0fed-f07d-68f197ed64e3" executionId="6d3c8131-8280-4882-ac46-1bff0a80a40f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="0588f944-72aa-6816-7f68-a3646481f76f" executionId="876bb74d-71a7-4139-ab21-622bc76f4670" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="f04dc708-28be-a93b-7492-ea26ceb53109" executionId="888b7faf-8909-439b-b472-9fead372d82e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="7d2a31c1-2a19-7aaf-9b9d-d1974a9255a6" executionId="effe3745-75ef-4cc7-9706-63a0b89f1b78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="771b833d-b0a7-d68c-9b12-594506e84415" executionId="7ac5d928-5091-414b-b56e-75d7a8f767d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="7c94585a-0b15-cf67-b4e5-012dd0de5fde" executionId="e4079bb3-ba36-46c9-9442-5bed36334c56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="be32eac3-0202-7f46-961e-e0869ccde4bd" executionId="4a324974-82f4-4be8-8338-ab767084c5c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="1730f8de-2fb7-8959-1c70-0b7fd5677079" executionId="67bd6432-986b-4382-b6a2-ee9a48350c03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="87e85a3f-8468-70d1-8b81-eae8ef3df3b3" executionId="c76955b9-1404-4bfe-9316-1a0c65f1dc63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="fd7b7ad3-fcf8-a1ff-0751-57c5d8a97036" executionId="a881a42c-16d7-4431-a242-29e1ab2bfdc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="6b51e066-50e2-aed3-ec03-2edf7a8322c5" executionId="ede25bbb-e8e7-4e95-9295-d0e48797c27b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="2ef58593-defc-9f1a-7743-68b5523ea79a" executionId="da8b3d2f-240a-4222-9af8-c6f358c04418" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="613d00a7-eff6-eaf0-b657-f2106c9bd925" executionId="f5af912c-5a8d-4500-b5f7-1007e287d459" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="31d4bf98-fb2d-bfc9-5a90-1870845bbb41" executionId="007f4311-3363-4845-ba42-86e391cf5cc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="db5b162e-5480-3204-0ede-b24a0f03b698" executionId="b46f71d4-3ff2-4e2d-a682-7914af196a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="815b6a30-d92f-2c0f-8e07-915eca10b7b9" executionId="427298f5-a5db-40b8-bdf2-c35c27f2904b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="270ecb77-5697-913c-7640-b42ee05d1fde" executionId="9d94ec9f-361c-46b9-ac00-b5463e8b189d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="86c24176-2696-f295-d831-c72428efbd5c" executionId="3ac6adef-8d25-4c41-8895-02447625d166" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="bc0d1bac-63b4-7232-25fe-6b2abcfdc912" executionId="cb20d18f-92f7-4886-ac11-ad676007baf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="348cb2aa-3a1b-0494-7acb-53a817bf01e7" executionId="d8574822-8742-4f5e-a5bc-049dc57726ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="3fe18c32-abb2-5641-e5c3-db8b60c3dc5e" executionId="7c4656d1-eae9-40a3-9b88-423887461499" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="267eebe9-e52b-6fbd-0f14-ccc0f75efb34" executionId="f317abf0-f16d-4a9c-a9ac-226f4bc59939" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="029a5475-324d-2ac0-41c9-3ac428d71ba9" executionId="b2a85c6b-771b-4275-951b-857f1245804c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="034aaaf9-a95c-1ce3-6f76-7ac376bbd1c2" executionId="f63bfa7c-b5c9-43a4-8a2b-b9c3b12969a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="fea3a4f6-5323-f99c-7e57-e01857bab1b8" executionId="4698acf5-3575-4213-a3da-74f33ac638f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="bb8e5c26-8eb6-e7c3-11ea-5de3841d06da" executionId="cbf185bf-a8df-4f1b-8445-e39721ae4b59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="5f5a6e1a-46be-0793-57e6-94a3cad1c61c" executionId="7f6bfe99-6ea6-4345-a9fb-196abbdc6347" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="beeb1cc9-e6a3-08fd-3706-6f8749a03350" executionId="809ba6b2-5fae-4ce1-a092-d69472481ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="ab0e48f5-9912-f70a-05e5-e145f1ff59bb" executionId="a1ede214-85ae-45c7-874d-45a3784c473b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="e0238b71-d156-167b-a5f2-44d504fe39dc" executionId="f258e09b-fb18-4b50-b626-5a604ac37d05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="e283f3ef-edcd-575f-a9f5-7315917f8ef7" executionId="369390f3-120a-46d1-b2a5-2912df2955e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="4a591b85-5ee1-9fc8-2d47-53bb0e2a4545" executionId="4a847c64-1c35-425e-b363-f2217d524e73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="7d6b9420-ba37-f9f0-9a67-6cf923a1ea13" executionId="8b1b17bf-d0c8-4a78-adfa-890b4c919b00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="9977c1fb-0960-d30e-a638-fa6c7af8fb11" executionId="0317bd97-818c-49fd-95a5-6eab938fa2b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="35d81d53-d46f-8f87-c5cd-4491a968b1be" executionId="316109a1-59e5-440d-a43b-56b0b605b24a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="37a30acc-9992-5353-b0e6-a2cc29e1e842" executionId="51ce0aa6-6d8e-4bef-9614-28e564f1cc9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="616e5a9c-14a2-f3f5-a832-7dccf9108700" executionId="0fc6d8df-47c7-434f-a7f4-6be9d40b4108" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="b21ca2b3-5b5b-1bf3-4478-5689b70443ca" executionId="9cd46fb0-4a0f-4029-aefe-3b0895728f38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="a074c6bd-f75f-3155-24e3-b5be6a49a928" executionId="f159c638-6e3e-40dc-a1c9-4f3377b2de78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="e6994e76-0177-11f8-29f1-4c00caba04c3" executionId="0eb16e2c-e4d0-49f4-98e0-6bce2a3f14f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="2b6de4df-d117-1f43-75d3-73368c7eaf94" executionId="114c6a3a-ca5f-401f-bdb0-76553be180d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="195439aa-ae79-74c2-ff36-4d8c3f0ead05" executionId="105ea125-2979-4475-aaed-170a59b9b61f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="e53dfa33-05c3-64c3-7a31-06ed6919ce84" executionId="9f11c1e9-621e-4aee-9e2f-4a92d1526efc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="0a58b178-072d-c426-7132-d25e2049d70c" executionId="801660c5-8eaa-48c9-b675-e882f2a37867" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="61741263-6a5a-2da0-76b2-bb42bb33e92c" executionId="1aba5be1-157a-4ac9-8d3b-4c20306c566a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="0b42806c-fe23-0bf9-b430-3b44429f32aa" executionId="a17d7092-c87c-4726-8307-41afefa9058c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="954e400c-4917-53f0-8237-321dd4bcc021" executionId="fd27e6cc-980d-43cb-829b-1852f51b8be3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="2879094b-7fd4-4bbf-b4a4-5d10d78ba2d1" executionId="691466d8-605a-4b6d-b893-5501b92e72d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="d4d376fe-42ea-4973-0696-26d6d197304b" executionId="472ae778-7c7e-4b60-b5fc-11bec05d688c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="93970965-2a3e-8f1d-11cc-538ee6bff2c0" executionId="28077b89-7bc2-4459-ae8a-912c4830bb38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="22850142-30f0-75be-2526-7567af771caf" executionId="65fc911c-1b6a-40fe-8da7-c61088914177" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="dd9ba7df-1450-912e-caa8-fff91028b246" executionId="9a468526-10cb-4e39-9764-09c77a9bdc0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="562b1d26-e517-58f5-98e5-1532ac2b72a8" executionId="6680501f-190a-4d49-bbdb-9c67f9b1dea4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="3d80fae2-dfd1-c813-71de-2040a4e8bf40" executionId="dc255c7e-3f06-4a9f-9dd8-8cc9921b6a5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="707c5ced-f6a8-4cac-4577-91d38b8641f1" executionId="650419cd-c3f5-4b78-8efe-f4261be1de46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="90c5ce58-3e1a-6653-49cc-d18bac5171b4" executionId="fcaaf3a1-5b12-4264-80a9-db76981fdc98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="c02a8efd-46f3-ce30-17b3-777898821313" executionId="e6141721-f665-4d1c-bef0-3c38a2ebf4af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="b06a67c8-69f6-85fd-0cdd-426ccbcd3471" executionId="f94b8f45-9070-4640-a05b-acec2124c67f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="1907c2fc-318f-c48e-af70-8b728f4aa610" executionId="266d5461-afec-4fba-80e8-a39b5c1afbf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+    <TestEntry testId="203c4401-5830-103a-4ce2-51aa9eb54f90" executionId="1ce91908-ff21-47f4-ba2e-b8f586cf6ea3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7f705316-cd4e-4698-82d3-c8fcae776368" testId="853f69d8-358f-2e21-a90a-0ea6bb0711f3" testName="EmptyCtor" computerName="TM3BUILD2" duration="00:00:00.3049890" startTime="2012-01-20T13:29:42.9855784+01:00" endTime="2012-01-20T13:29:43.6676640+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f705316-cd4e-4698-82d3-c8fcae776368" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7de14b1-3e44-4044-97f2-42aae15bb11b" testId="c4935570-7525-afbe-c812-51955dcbd6e8" testName="ProcessJob_GetPendingJobReturnNull" computerName="TM3BUILD2" duration="00:00:00.0433971" startTime="2012-01-20T13:29:43.6745044+01:00" endTime="2012-01-20T13:29:43.7223872+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7de14b1-3e44-4044-97f2-42aae15bb11b" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="17d866ee-0f86-4833-bfe6-b3d877d5357b" testId="8a6446ab-d9c0-3b04-caad-f0985c8e925a" testName="ProcessJob_GetPendingJobThrowsException" computerName="TM3BUILD2" duration="00:00:00.0082340" startTime="2012-01-20T13:29:43.7262960+01:00" endTime="2012-01-20T13:29:43.7370452+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17d866ee-0f86-4833-bfe6-b3d877d5357b" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7a5ec0f-940b-4a9c-9dd4-926648ace280" testId="6d89936e-1b0f-7c87-96b9-3492e739f7c6" testName="ProcessJob_OK" computerName="TM3BUILD2" duration="00:00:00.0201464" startTime="2012-01-20T13:29:43.7419312+01:00" endTime="2012-01-20T13:29:43.7644068+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7a5ec0f-940b-4a9c-9dd4-926648ace280" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6ae1764-ed48-4669-8ebc-7c7c6c75c479" testId="98122b40-85fb-a5a8-93f8-b86f3e78a75c" testName="ProcessJobExecuteException" computerName="TM3BUILD2" duration="00:00:00.0002665" startTime="2012-01-20T13:29:43.7683156+01:00" endTime="2012-01-20T13:29:43.7712472+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6ae1764-ed48-4669-8ebc-7c7c6c75c479" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="68ad670d-1115-43b6-a6e0-c6b70a226813" testId="bb8b07c2-6e2e-d1a1-c58e-53476a7bac37" testName="ProcessJobWithSchedule" computerName="TM3BUILD2" duration="00:00:00.0002519" startTime="2012-01-20T13:29:43.7751560+01:00" endTime="2012-01-20T13:29:43.7790648+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68ad670d-1115-43b6-a6e0-c6b70a226813" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="8019153b-2078-42e8-ac97-c965337502a3" testId="7955b35e-fd29-8562-577a-13615a6a1fd9" testName="ProcessManualQueuedJob" computerName="TM3BUILD2" duration="00:00:00.0003070" startTime="2012-01-20T13:29:43.7839508+01:00" endTime="2012-01-20T13:29:43.7888368+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8019153b-2078-42e8-ac97-c965337502a3" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="45514abb-3704-492e-8d35-4706bae74c18" testId="20f8642a-6ee6-964e-5132-8f6ec4744b42" testName="ExecuteFakeBatchProgram" computerName="TM3BUILD2" startTime="2012-01-20T13:29:43.7898140+01:00" endTime="2012-01-20T13:29:44.5442124+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45514abb-3704-492e-8d35-4706bae74c18" dataRowInfo="">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a02673f7-c597-4f67-8f74-c828ef435f22" testId="f198f8a4-4ed2-aa2c-2689-6f7149efef5a" testName="ExecuteFakeBatchProgramWithInputAndOutput" computerName="TM3BUILD2" startTime="2012-01-20T13:29:44.5725512+01:00" endTime="2012-01-20T13:29:45.8204356+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a02673f7-c597-4f67-8f74-c828ef435f22" dataRowInfo="">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e1d95dc-560c-4e65-be6f-3a78db474884" testId="a7284ff0-0c3b-be5d-2ba2-927685764035" testName="ProgramAcceptingFileThatExists" computerName="TM3BUILD2" startTime="2012-01-20T13:29:45.8350936+01:00" endTime="2012-01-20T13:29:46.4868860+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e1d95dc-560c-4e65-be6f-3a78db474884" dataRowInfo="">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd86c4ab-9e53-4b8f-8bab-ba5bf1aaa481" testId="1cd71ad7-c72f-38fe-d39a-c5ee170dcf80" testName="ProgramAcceptingFileThatNotExistsCreatedWhenNotFoundOK" computerName="TM3BUILD2" startTime="2012-01-20T13:29:46.4986124+01:00" endTime="2012-01-20T13:29:47.1289064+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd86c4ab-9e53-4b8f-8bab-ba5bf1aaa481" dataRowInfo="">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9beadae9-9e95-4179-bb8e-a06b6d41f888" testId="5a24c80a-fca9-39e1-7d7a-a5480e304268" testName="EmtpyCtor" computerName="TM3BUILD2" duration="00:00:00.0250964" startTime="2012-01-20T13:29:47.1435644+01:00" endTime="2012-01-20T13:29:47.5276040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9beadae9-9e95-4179-bb8e-a06b6d41f888" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="b53998e5-7857-499d-a71b-76449c740e3d" testId="48d8d385-91e0-1c3f-76bf-ebd20402d3ac" testName="Execute_OK" computerName="TM3BUILD2" duration="00:00:00.2505617" startTime="2012-01-20T13:29:47.5373760+01:00" endTime="2012-01-20T13:29:47.7924252+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b53998e5-7857-499d-a71b-76449c740e3d" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="f897712c-8d76-43ad-9927-6a473267ffca" testId="be7d9637-f76b-de17-4c8f-12ab5979bbcb" testName="EmtpyCtor" computerName="TM3BUILD2" duration="00:00:00.0008649" startTime="2012-01-20T13:29:47.7963340+01:00" endTime="2012-01-20T13:29:47.8002428+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f897712c-8d76-43ad-9927-6a473267ffca" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="db228afc-9f04-44d4-ae02-673524c12683" testId="340c477e-3a93-8c3e-d4c0-096c983cf82c" testName="Execute_OK" computerName="TM3BUILD2" duration="00:00:00.0108005" startTime="2012-01-20T13:29:47.8041516+01:00" endTime="2012-01-20T13:29:47.8178324+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db228afc-9f04-44d4-ae02-673524c12683" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="280a2641-d57a-4ebd-812d-7809c85f5b66" testId="3f1f9c9d-4b0b-d301-05ef-9213b580ec99" testName="CreateForDownloading_OK" computerName="TM3BUILD2" duration="00:00:00.0283069" startTime="2012-01-20T13:29:47.8207640+01:00" endTime="2012-01-20T13:29:47.8520344+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="280a2641-d57a-4ebd-812d-7809c85f5b66" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a53a387-a397-4c92-9653-60bf41aff9d5" testId="f53aa185-fa1b-3718-6c04-311ef5ec0bcd" testName="CreateForUploading_OK" computerName="TM3BUILD2" duration="00:00:00.0004115" startTime="2012-01-20T13:29:47.8559432+01:00" endTime="2012-01-20T13:29:47.8598520+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a53a387-a397-4c92-9653-60bf41aff9d5" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ae2d490-14b5-423b-a80c-83017f540912" testId="0ca32266-3996-e23e-2715-3ac7802afb4d" testName="Execute_Download_ClientThrowsException" computerName="TM3BUILD2" duration="00:00:00.0173927" startTime="2012-01-20T13:29:47.8627836+01:00" endTime="2012-01-20T13:29:47.8833048+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ae2d490-14b5-423b-a80c-83017f540912" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="2e04716c-05c6-4d7b-811f-1e14b0912141" testId="2308d8bd-563b-2b63-9922-68564615abed" testName="Execute_Download_OK" computerName="TM3BUILD2" duration="00:00:00.0068564" startTime="2012-01-20T13:29:47.8862364+01:00" endTime="2012-01-20T13:29:47.8989400+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e04716c-05c6-4d7b-811f-1e14b0912141" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="9dd3a1bc-07db-4479-b0d4-a4f4895e852a" testId="53f46ffd-85ce-c5ab-5897-e593f091ae4b" testName="Execute_Upload_ClientThrowsException" computerName="TM3BUILD2" duration="00:00:00.0039577" startTime="2012-01-20T13:29:47.9028488+01:00" endTime="2012-01-20T13:29:47.9096892+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dd3a1bc-07db-4479-b0d4-a4f4895e852a" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="280db83d-33f8-470c-92ff-e6a8da60fa7e" testId="c6a7ffeb-687e-427a-aa17-4c30ed03ce44" testName="Execute_Upload_InvalidFile" computerName="TM3BUILD2" duration="00:00:00.0008132" startTime="2012-01-20T13:29:47.9126208+01:00" endTime="2012-01-20T13:29:47.9175068+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="280db83d-33f8-470c-92ff-e6a8da60fa7e" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="da6b087c-b666-44fa-b65b-d8a6a3116b3a" testId="91a76986-0cb7-5f0d-741d-a22ea45cf55b" testName="Execute_Upload_OK" computerName="TM3BUILD2" duration="00:00:00.0103705" startTime="2012-01-20T13:29:47.9194612+01:00" endTime="2012-01-20T13:29:47.9331420+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da6b087c-b666-44fa-b65b-d8a6a3116b3a" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="8d551380-7127-43a8-85cf-b7cd03c71e3e" testId="2150bbab-784d-fb4a-86e7-a740d84407c8" testName="Execute" computerName="TM3BUILD2" duration="00:00:00.2724924" startTime="2012-01-20T13:29:47.9360736+01:00" endTime="2012-01-20T13:29:48.2116440+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d551380-7127-43a8-85cf-b7cd03c71e3e" dataRowInfo="">
+      <Output>
+        <StdOut>Build started 20/01/2012 13:29:48.
+__________________________________________________
+Project "e:\_buildDir\64\TM3\CI.Batch\TestResults\rmpablos_TM3BUILD2 2012-01-20 13_29_42_Any CPU_Debug\Out\HelloWorld.proj" (default targets):
+
+Target Hello:
+    Hello Mariano
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.03</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcbdb52b-d6db-4c28-a6b8-f5d0e779f65a" testId="b5d616e7-f640-9d6e-6948-6aacf5eadec6" testName="ExecuteWithParameters" computerName="TM3BUILD2" duration="00:00:00.0103800" startTime="2012-01-20T13:29:48.2165300+01:00" endTime="2012-01-20T13:29:48.2331424+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcbdb52b-d6db-4c28-a6b8-f5d0e779f65a" dataRowInfo="">
+      <Output>
+        <StdOut>Build started 20/01/2012 13:29:48.
+__________________________________________________
+Project "e:\_buildDir\64\TM3\CI.Batch\TestResults\rmpablos_TM3BUILD2 2012-01-20 13_29_42_Any CPU_Debug\Out\HelloWorld.proj" (default targets):
+
+Target Hello:
+    Hello Pierre
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.00</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34e5b8dc-0787-454f-87a3-90d31ab67df0" testId="d2dbff75-aaba-b353-3987-eb5b8765c008" testName="ProjCtor" computerName="TM3BUILD2" duration="00:00:00.0110282" startTime="2012-01-20T13:29:48.2370512+01:00" endTime="2012-01-20T13:29:48.2526864+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34e5b8dc-0787-454f-87a3-90d31ab67df0" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f164e4e-fafc-4fe8-a54b-9a6009a32993" testId="b30dc45d-c95d-df58-4513-ba7968f021f5" testName="ProjWithLoggerCtor" computerName="TM3BUILD2" duration="00:00:00.0019298" startTime="2012-01-20T13:29:48.2565952+01:00" endTime="2012-01-20T13:29:48.2624584+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f164e4e-fafc-4fe8-a54b-9a6009a32993" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="8db6df01-ea29-4c53-b49a-ca8d79ac5214" testId="eb1f8269-0221-d649-04fe-790fe00c17d0" testName="ProjWithParametersCtor_Comma" computerName="TM3BUILD2" duration="00:00:00.0021592" startTime="2012-01-20T13:29:48.2653900+01:00" endTime="2012-01-20T13:29:48.2712532+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8db6df01-ea29-4c53-b49a-ca8d79ac5214" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e76eacb-bb21-4976-afdc-c203604e2ff2" testId="47922196-6a43-7805-c7a1-275240fe3eac" testName="ProjWithParametersCtor_InvalidFormat" computerName="TM3BUILD2" duration="00:00:00.0032755" startTime="2012-01-20T13:29:48.2732076+01:00" endTime="2012-01-20T13:29:48.2810252+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e76eacb-bb21-4976-afdc-c203604e2ff2" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="65c37856-54f9-4c98-9c30-9434a989bfb4" testId="413c69a2-6a97-7048-1245-958ecb331601" testName="ProjWithParametersCtor_Semicolon" computerName="TM3BUILD2" duration="00:00:00.0021290" startTime="2012-01-20T13:29:48.2839568+01:00" endTime="2012-01-20T13:29:48.2898200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65c37856-54f9-4c98-9c30-9434a989bfb4" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="c209a67d-d1e9-4f5a-a6b4-783503b4a8b5" testId="5aff2ce5-6494-e743-f41f-941635f75aec" testName="ProjWithTargetCtor" computerName="TM3BUILD2" duration="00:00:00.0019055" startTime="2012-01-20T13:29:48.2927516+01:00" endTime="2012-01-20T13:29:48.2986148+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c209a67d-d1e9-4f5a-a6b4-783503b4a8b5" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="b522f540-cd1e-4a5f-a687-95fa274d5f5d" testId="e4fa59cb-c4ee-2970-1895-b3669759019f" testName="ReaderCtor" computerName="TM3BUILD2" duration="00:00:00.0041091" startTime="2012-01-20T13:29:48.3005692+01:00" endTime="2012-01-20T13:29:48.3083868+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b522f540-cd1e-4a5f-a687-95fa274d5f5d" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a872667-899c-4205-90bf-e59b88f43c72" testId="8f3fa0ac-7e87-02c7-c55f-5bc2717a9834" testName="ReaderWithParametersCtor" computerName="TM3BUILD2" duration="00:00:00.0026601" startTime="2012-01-20T13:29:48.3113184+01:00" endTime="2012-01-20T13:29:48.3171816+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a872667-899c-4205-90bf-e59b88f43c72" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd47d532-fff2-4bae-8882-2822ef955946" testId="b0d5d992-f343-f54a-85e1-171400cb5916" testName="ReaderWithTargetAndLoggerCtor" computerName="TM3BUILD2" duration="00:00:00.0025891" startTime="2012-01-20T13:29:48.3201132+01:00" endTime="2012-01-20T13:29:48.3269536+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd47d532-fff2-4bae-8882-2822ef955946" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="136d473f-9088-4d57-b41c-01bdfb6489b4" testId="5e29b1cb-02aa-894a-4ff8-168d83083dab" testName="ReaderWithTargetCtor" computerName="TM3BUILD2" duration="00:00:00.0017929" startTime="2012-01-20T13:29:48.3298852+01:00" endTime="2012-01-20T13:29:48.3357484+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="136d473f-9088-4d57-b41c-01bdfb6489b4" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1caf4c7-fd00-41f9-9ba4-5d29b1a8bbab" testId="6d87e4f0-aacb-4cd5-ae85-d11350125cd5" testName="Execute_FileIn_NotFound" computerName="TM3BUILD2" duration="00:00:00.0080689" startTime="2012-01-20T13:29:48.3386800+01:00" endTime="2012-01-20T13:29:48.3513836+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1caf4c7-fd00-41f9-9ba4-5d29b1a8bbab" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b59a370-3017-4474-b210-d217c08c0cfd" testId="8eb92a48-a660-482a-c250-a02719295e33" testName="Execute_OK" computerName="TM3BUILD2" duration="00:00:02.7416090" startTime="2012-01-20T13:29:48.3543152+01:00" endTime="2012-01-20T13:29:51.1012244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b59a370-3017-4474-b210-d217c08c0cfd" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="37668d4e-7629-45ce-a5a2-7fffbb53b31a" testId="f2e94469-ab51-b8c0-9920-d815492daac8" testName="Execute_FileIn_NotFound" computerName="TM3BUILD2" duration="00:00:00.0019348" startTime="2012-01-20T13:29:51.1041560+01:00" endTime="2012-01-20T13:29:51.1109964+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37668d4e-7629-45ce-a5a2-7fffbb53b31a" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="81709abb-4181-4dc1-9c14-e5b11ac84751" testId="5458ebdf-73a6-30e1-3ef2-ccc1a4343463" testName="Execute_Landscape_OK" computerName="TM3BUILD2" duration="00:00:00.2289941" startTime="2012-01-20T13:29:51.1129508+01:00" endTime="2012-01-20T13:29:51.3465016+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81709abb-4181-4dc1-9c14-e5b11ac84751" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d3c8131-8280-4882-ac46-1bff0a80a40f" testId="241a9271-e8a3-0fed-f07d-68f197ed64e3" testName="Execute_Portrait_2_OK" computerName="TM3BUILD2" duration="00:00:00.0334810" startTime="2012-01-20T13:29:51.3621368+01:00" endTime="2012-01-20T13:29:51.4012248+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d3c8131-8280-4882-ac46-1bff0a80a40f" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="876bb74d-71a7-4139-ab21-622bc76f4670" testId="0588f944-72aa-6816-7f68-a3646481f76f" testName="Execute_Portrait_OK" computerName="TM3BUILD2" duration="00:00:01.6252001" startTime="2012-01-20T13:29:51.4061108+01:00" endTime="2012-01-20T13:29:53.0478068+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="876bb74d-71a7-4139-ab21-622bc76f4670" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="888b7faf-8909-439b-b472-9fead372d82e" testId="f04dc708-28be-a93b-7492-ea26ceb53109" testName="Cleaner" computerName="TM3BUILD2" duration="00:00:00.0445299" startTime="2012-01-20T13:29:53.0517156+01:00" endTime="2012-01-20T13:29:53.1132792+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="888b7faf-8909-439b-b472-9fead372d82e" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="effe3745-75ef-4cc7-9706-63a0b89f1b78" testId="7d2a31c1-2a19-7aaf-9b9d-d1974a9255a6" testName="EmtpyCtor" computerName="TM3BUILD2" duration="00:00:00.0002757" startTime="2012-01-20T13:29:53.1181652+01:00" endTime="2012-01-20T13:29:53.1230512+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="effe3745-75ef-4cc7-9706-63a0b89f1b78" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ac5d928-5091-414b-b56e-75d7a8f767d0" testId="771b833d-b0a7-d68c-9b12-594506e84415" testName="Execute_CleanerThrowsException" computerName="TM3BUILD2" duration="00:00:00.0170356" startTime="2012-01-20T13:29:53.1259828+01:00" endTime="2012-01-20T13:29:53.1455268+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ac5d928-5091-414b-b56e-75d7a8f767d0" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4079bb3-ba36-46c9-9442-5bed36334c56" testId="7c94585a-0b15-cf67-b4e5-012dd0de5fde" testName="Execute_OK" computerName="TM3BUILD2" duration="00:00:00.0032009" startTime="2012-01-20T13:29:53.1494356+01:00" endTime="2012-01-20T13:29:53.1562760+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4079bb3-ba36-46c9-9442-5bed36334c56" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a324974-82f4-4be8-8338-ab767084c5c5" testId="be32eac3-0202-7f46-961e-e0869ccde4bd" testName="EmtpyCtor" computerName="TM3BUILD2" duration="00:00:00.0005525" startTime="2012-01-20T13:29:53.1592076+01:00" endTime="2012-01-20T13:29:53.1631164+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a324974-82f4-4be8-8338-ab767084c5c5" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="67bd6432-986b-4382-b6a2-ee9a48350c03" testId="1730f8de-2fb7-8959-1c70-0b7fd5677079" testName="Execute_LineSequential_Include_OK" computerName="TM3BUILD2" duration="00:00:00.0289028" startTime="2012-01-20T13:29:53.1660480+01:00" endTime="2012-01-20T13:29:53.1982956+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67bd6432-986b-4382-b6a2-ee9a48350c03" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="c76955b9-1404-4bfe-9316-1a0c65f1dc63" testId="87e85a3f-8468-70d1-8b81-eae8ef3df3b3" testName="Execute_LineSequential_OK" computerName="TM3BUILD2" duration="00:00:00.0017887" startTime="2012-01-20T13:29:53.2022044+01:00" endTime="2012-01-20T13:29:53.2070904+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c76955b9-1404-4bfe-9316-1a0c65f1dc63" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="a881a42c-16d7-4431-a242-29e1ab2bfdc4" testId="fd7b7ad3-fcf8-a1ff-0751-57c5d8a97036" testName="Execute_LineSequential_Omit_OK" computerName="TM3BUILD2" duration="00:00:00.0020946" startTime="2012-01-20T13:29:53.2109992+01:00" endTime="2012-01-20T13:29:53.2168624+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a881a42c-16d7-4431-a242-29e1ab2bfdc4" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="ede25bbb-e8e7-4e95-9295-d0e48797c27b" testId="6b51e066-50e2-aed3-ec03-2edf7a8322c5" testName="Execute_LineSequential_WithSum_OK" computerName="TM3BUILD2" duration="00:00:00.0066472" startTime="2012-01-20T13:29:53.2207712+01:00" endTime="2012-01-20T13:29:53.2305432+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ede25bbb-e8e7-4e95-9295-d0e48797c27b" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="da8b3d2f-240a-4222-9af8-c6f358c04418" testId="2ef58593-defc-9f1a-7743-68b5523ea79a" testName="Execute_LineSequential_WithSum2_OK" computerName="TM3BUILD2" duration="00:00:00.0030590" startTime="2012-01-20T13:29:53.2344520+01:00" endTime="2012-01-20T13:29:53.2403152+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da8b3d2f-240a-4222-9af8-c6f358c04418" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="f5af912c-5a8d-4500-b5f7-1007e287d459" testId="613d00a7-eff6-eaf0-b657-f2106c9bd925" testName="Execute_LineSequential_WithSumNone_OK" computerName="TM3BUILD2" duration="00:00:00.0038935" startTime="2012-01-20T13:29:53.2442240+01:00" endTime="2012-01-20T13:29:53.2510644+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5af912c-5a8d-4500-b5f7-1007e287d459" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="007f4311-3363-4845-ba42-86e391cf5cc3" testId="31d4bf98-fb2d-bfc9-5a90-1870845bbb41" testName="Execute_SequentialFixedLength_OK" computerName="TM3BUILD2" duration="00:00:00.0020435" startTime="2012-01-20T13:29:53.2549732+01:00" endTime="2012-01-20T13:29:53.2598592+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="007f4311-3363-4845-ba42-86e391cf5cc3" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="b46f71d4-3ff2-4e2d-a682-7914af196a49" testId="db5b162e-5480-3204-0ede-b24a0f03b698" testName="FileType_InvalidValue" computerName="TM3BUILD2" duration="00:00:00.0005182" startTime="2012-01-20T13:29:53.2637680+01:00" endTime="2012-01-20T13:29:53.2666996+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b46f71d4-3ff2-4e2d-a682-7914af196a49" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="427298f5-a5db-40b8-bdf2-c35c27f2904b" testId="815b6a30-d92f-2c0f-8e07-915eca10b7b9" testName="FileType_OK" computerName="TM3BUILD2" duration="00:00:00.0004508" startTime="2012-01-20T13:29:53.2706084+01:00" endTime="2012-01-20T13:29:53.2764716+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="427298f5-a5db-40b8-bdf2-c35c27f2904b" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d94ec9f-361c-46b9-ac00-b5463e8b189d" testId="270ecb77-5697-913c-7640-b42ee05d1fde" testName="OrderBy" computerName="TM3BUILD2" duration="00:00:00.0008537" startTime="2012-01-20T13:29:53.2803804+01:00" endTime="2012-01-20T13:29:53.2842892+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d94ec9f-361c-46b9-ac00-b5463e8b189d" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="3ac6adef-8d25-4c41-8895-02447625d166" testId="86c24176-2696-f295-d831-c72428efbd5c" testName="OrderBy_DifferentLength" computerName="TM3BUILD2" duration="00:00:00.0006352" startTime="2012-01-20T13:29:53.2881980+01:00" endTime="2012-01-20T13:29:53.2921068+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ac6adef-8d25-4c41-8895-02447625d166" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="cb20d18f-92f7-4886-ac11-ad676007baf8" testId="bc0d1bac-63b4-7232-25fe-6b2abcfdc912" testName="OrderBy_Empty" computerName="TM3BUILD2" duration="00:00:00.0008724" startTime="2012-01-20T13:29:53.2960156+01:00" endTime="2012-01-20T13:29:53.2999244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb20d18f-92f7-4886-ac11-ad676007baf8" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8574822-8742-4f5e-a5bc-049dc57726ce" testId="348cb2aa-3a1b-0494-7acb-53a817bf01e7" testName="OrderBy_Null" computerName="TM3BUILD2" duration="00:00:00.0006366" startTime="2012-01-20T13:29:53.3028560+01:00" endTime="2012-01-20T13:29:53.3067648+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8574822-8742-4f5e-a5bc-049dc57726ce" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c4656d1-eae9-40a3-9b88-423887461499" testId="3fe18c32-abb2-5641-e5c3-db8b60c3dc5e" testName="OrderBy_Numeric" computerName="TM3BUILD2" duration="00:00:00.0007464" startTime="2012-01-20T13:29:53.3106736+01:00" endTime="2012-01-20T13:29:53.3136052+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c4656d1-eae9-40a3-9b88-423887461499" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="f317abf0-f16d-4a9c-a9ac-226f4bc59939" testId="267eebe9-e52b-6fbd-0f14-ccc0f75efb34" testName="OrderBy_Twice" computerName="TM3BUILD2" duration="00:00:00.0008431" startTime="2012-01-20T13:29:53.3175140+01:00" endTime="2012-01-20T13:29:53.3214228+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f317abf0-f16d-4a9c-a9ac-226f4bc59939" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="b2a85c6b-771b-4275-951b-857f1245804c" testId="029a5475-324d-2ac0-41c9-3ac428d71ba9" testName="OrderByDescending" computerName="TM3BUILD2" duration="00:00:00.0006844" startTime="2012-01-20T13:29:53.3243544+01:00" endTime="2012-01-20T13:29:53.3282632+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2a85c6b-771b-4275-951b-857f1245804c" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="f63bfa7c-b5c9-43a4-8a2b-b9c3b12969a4" testId="034aaaf9-a95c-1ce3-6f76-7ac376bbd1c2" testName="OrderByDescending_Numeric" computerName="TM3BUILD2" duration="00:00:00.0006707" startTime="2012-01-20T13:29:53.3311948+01:00" endTime="2012-01-20T13:29:53.3351036+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f63bfa7c-b5c9-43a4-8a2b-b9c3b12969a4" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="4698acf5-3575-4213-a3da-74f33ac638f8" testId="fea3a4f6-5323-f99c-7e57-e01857bab1b8" testName="GroupBy" computerName="TM3BUILD2" duration="00:00:00.0011568" startTime="2012-01-20T13:29:53.3390124+01:00" endTime="2012-01-20T13:29:53.3429212+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4698acf5-3575-4213-a3da-74f33ac638f8" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="cbf185bf-a8df-4f1b-8445-e39721ae4b59" testId="bb8e5c26-8eb6-e7c3-11ea-5de3841d06da" testName="ExecuteSubmitJobJob" computerName="TM3BUILD2" duration="00:00:00.4776774" startTime="2012-01-20T13:29:53.3468300+01:00" endTime="2012-01-20T13:29:53.8276124+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbf185bf-a8df-4f1b-8445-e39721ae4b59" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="7f6bfe99-6ea6-4345-a9fb-196abbdc6347" testId="5f5a6e1a-46be-0793-57e6-94a3cad1c61c" testName="ExecuteSubmitJobTask" computerName="TM3BUILD2" duration="00:00:00.0268763" startTime="2012-01-20T13:29:53.8324984+01:00" endTime="2012-01-20T13:29:53.8627916+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f6bfe99-6ea6-4345-a9fb-196abbdc6347" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="809ba6b2-5fae-4ce1-a092-d69472481ecb" testId="beeb1cc9-e6a3-08fd-3706-6f8749a03350" testName="ErrorRaised_OK" computerName="TM3BUILD2" duration="00:00:00.0765709" startTime="2012-01-20T13:29:53.8667004+01:00" endTime="2012-01-20T13:29:54.2048116+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="809ba6b2-5fae-4ce1-a092-d69472481ecb" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1ede214-85ae-45c7-874d-45a3784c473b" testId="ab0e48f5-9912-f70a-05e5-e145f1ff59bb" testName="ProjectFinished_OK" computerName="TM3BUILD2" duration="00:00:00.2043837" startTime="2012-01-20T13:29:54.2087204+01:00" endTime="2012-01-20T13:29:54.4168640+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1ede214-85ae-45c7-874d-45a3784c473b" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="f258e09b-fb18-4b50-b626-5a604ac37d05" testId="e0238b71-d156-167b-a5f2-44d504fe39dc" testName="ProjectFinished_Partially" computerName="TM3BUILD2" duration="00:00:00.0035644" startTime="2012-01-20T13:29:54.4217500+01:00" endTime="2012-01-20T13:29:54.4285904+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f258e09b-fb18-4b50-b626-5a604ac37d05" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="369390f3-120a-46d1-b2a5-2912df2955e9" testId="e283f3ef-edcd-575f-a9f5-7315917f8ef7" testName="ProjectStarted_OK" computerName="TM3BUILD2" duration="00:00:00.0113391" startTime="2012-01-20T13:29:54.4324992+01:00" endTime="2012-01-20T13:29:54.4481344+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="369390f3-120a-46d1-b2a5-2912df2955e9" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a847c64-1c35-425e-b363-f2217d524e73" testId="4a591b85-5ee1-9fc8-2d47-53bb0e2a4545" testName="ScheduleItemCtor" computerName="TM3BUILD2" duration="00:00:00.0006953" startTime="2012-01-20T13:29:54.4520432+01:00" endTime="2012-01-20T13:29:54.4569292+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a847c64-1c35-425e-b363-f2217d524e73" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b1b17bf-d0c8-4a78-adfa-890b4c919b00" testId="7d6b9420-ba37-f9f0-9a67-6cf923a1ea13" testName="TargetFinished_OK" computerName="TM3BUILD2" duration="00:00:00.0042510" startTime="2012-01-20T13:29:54.4618152+01:00" endTime="2012-01-20T13:29:54.4725644+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b1b17bf-d0c8-4a78-adfa-890b4c919b00" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="0317bd97-818c-49fd-95a5-6eab938fa2b6" testId="9977c1fb-0960-d30e-a638-fa6c7af8fb11" testName="TargetFinished_WithError_OK" computerName="TM3BUILD2" duration="00:00:00.0030224" startTime="2012-01-20T13:29:54.4764732+01:00" endTime="2012-01-20T13:29:54.4842908+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0317bd97-818c-49fd-95a5-6eab938fa2b6" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="316109a1-59e5-440d-a43b-56b0b605b24a" testId="35d81d53-d46f-8f87-c5cd-4491a968b1be" testName="TargetFinished_WithWaning_OK" computerName="TM3BUILD2" duration="00:00:00.0032247" startTime="2012-01-20T13:29:54.4881996+01:00" endTime="2012-01-20T13:29:54.4950400+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="316109a1-59e5-440d-a43b-56b0b605b24a" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="51ce0aa6-6d8e-4bef-9614-28e564f1cc9b" testId="37a30acc-9992-5353-b0e6-a2cc29e1e842" testName="TargetStarted_OK" computerName="TM3BUILD2" duration="00:00:00.0052959" startTime="2012-01-20T13:29:54.4989488+01:00" endTime="2012-01-20T13:29:54.5087208+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51ce0aa6-6d8e-4bef-9614-28e564f1cc9b" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="0fc6d8df-47c7-434f-a7f4-6be9d40b4108" testId="616e5a9c-14a2-f3f5-a832-7dccf9108700" testName="WarningRaised_OK" computerName="TM3BUILD2" duration="00:00:00.0005260" startTime="2012-01-20T13:29:54.5126296+01:00" endTime="2012-01-20T13:29:54.5165384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fc6d8df-47c7-434f-a7f4-6be9d40b4108" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="9cd46fb0-4a0f-4029-aefe-3b0895728f38" testId="b21ca2b3-5b5b-1bf3-4478-5689b70443ca" testName="CalculateNextRunDate_Daily_OnceAt_NullCurrent_Future_OK" computerName="TM3BUILD2" duration="00:00:00.0046869" startTime="2012-01-20T13:29:54.5204472+01:00" endTime="2012-01-20T13:29:54.5282648+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cd46fb0-4a0f-4029-aefe-3b0895728f38" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="f159c638-6e3e-40dc-a1c9-4f3377b2de78" testId="a074c6bd-f75f-3155-24e3-b5be6a49a928" testName="CalculateNextRunDate_Daily_OnceAt_NullCurrent_Past_OK" computerName="TM3BUILD2" duration="00:00:00.0004754" startTime="2012-01-20T13:29:54.5321736+01:00" endTime="2012-01-20T13:29:54.5360824+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f159c638-6e3e-40dc-a1c9-4f3377b2de78" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="0eb16e2c-e4d0-49f4-98e0-6bce2a3f14f3" testId="e6994e76-0177-11f8-29f1-4c00caba04c3" testName="CalculateNextRunDate_Daily_OnceAt_OK" computerName="TM3BUILD2" duration="00:00:00.0004559" startTime="2012-01-20T13:29:54.5399912+01:00" endTime="2012-01-20T13:29:54.5439000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0eb16e2c-e4d0-49f4-98e0-6bce2a3f14f3" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="114c6a3a-ca5f-401f-bdb0-76553be180d1" testId="2b6de4df-d117-1f43-75d3-73368c7eaf94" testName="CalculateNextRunDate_ExpiredJob" computerName="TM3BUILD2" duration="00:00:00.0004807" startTime="2012-01-20T13:29:54.5468316+01:00" endTime="2012-01-20T13:29:54.5517176+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="114c6a3a-ca5f-401f-bdb0-76553be180d1" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="105ea125-2979-4475-aaed-170a59b9b61f" testId="195439aa-ae79-74c2-ff36-4d8c3f0ead05" testName="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Future1_OK" computerName="TM3BUILD2" duration="00:00:00.0013049" startTime="2012-01-20T13:29:54.5546492+01:00" endTime="2012-01-20T13:29:54.5595352+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="105ea125-2979-4475-aaed-170a59b9b61f" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f11c1e9-621e-4aee-9e2f-4a92d1526efc" testId="e53dfa33-05c3-64c3-7a31-06ed6919ce84" testName="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Future2_OK" computerName="TM3BUILD2" duration="00:00:00.0004352" startTime="2012-01-20T13:29:54.5624668+01:00" endTime="2012-01-20T13:29:54.5663756+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f11c1e9-621e-4aee-9e2f-4a92d1526efc" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="801660c5-8eaa-48c9-b675-e882f2a37867" testId="0a58b178-072d-c426-7132-d25e2049d70c" testName="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Past1_OK" computerName="TM3BUILD2" duration="00:00:00.0004243" startTime="2012-01-20T13:29:54.5702844+01:00" endTime="2012-01-20T13:29:54.5732160+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="801660c5-8eaa-48c9-b675-e882f2a37867" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="1aba5be1-157a-4ac9-8d3b-4c20306c566a" testId="61741263-6a5a-2da0-76b2-bb42bb33e92c" testName="CalculateNextRunDate_Monthly_OnceAt_NullCurrent_Past2_OK" computerName="TM3BUILD2" duration="00:00:00.0003939" startTime="2012-01-20T13:29:54.5771248+01:00" endTime="2012-01-20T13:29:54.5810336+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aba5be1-157a-4ac9-8d3b-4c20306c566a" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="a17d7092-c87c-4726-8307-41afefa9058c" testId="0b42806c-fe23-0bf9-b430-3b44429f32aa" testName="CalculateNextRunDate_Monthly_OnceAt1_OK" computerName="TM3BUILD2" duration="00:00:00.0005154" startTime="2012-01-20T13:29:54.5839652+01:00" endTime="2012-01-20T13:29:54.5878740+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a17d7092-c87c-4726-8307-41afefa9058c" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd27e6cc-980d-43cb-829b-1852f51b8be3" testId="954e400c-4917-53f0-8237-321dd4bcc021" testName="CalculateNextRunDate_Monthly_OnceAt2_OK" computerName="TM3BUILD2" duration="00:00:00.0004422" startTime="2012-01-20T13:29:54.5908056+01:00" endTime="2012-01-20T13:29:54.5947144+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd27e6cc-980d-43cb-829b-1852f51b8be3" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="691466d8-605a-4b6d-b893-5501b92e72d8" testId="2879094b-7fd4-4bbf-b4a4-5d10d78ba2d1" testName="CalculateNextRunDate_NullSchedule" computerName="TM3BUILD2" duration="00:00:00.0029425" startTime="2012-01-20T13:29:54.5976460+01:00" endTime="2012-01-20T13:29:54.6044864+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="691466d8-605a-4b6d-b893-5501b92e72d8" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="472ae778-7c7e-4b60-b5fc-11bec05d688c" testId="d4d376fe-42ea-4973-0696-26d6d197304b" testName="CalculateNextRunDate_OneTime_NullCurrent_OnceAt_OK" computerName="TM3BUILD2" duration="00:00:00.0005883" startTime="2012-01-20T13:29:54.6074180+01:00" endTime="2012-01-20T13:29:54.6123040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="472ae778-7c7e-4b60-b5fc-11bec05d688c" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="28077b89-7bc2-4459-ae8a-912c4830bb38" testId="93970965-2a3e-8f1d-11cc-538ee6bff2c0" testName="CalculateNextRunDate_OneTime_OnceAt_OK" computerName="TM3BUILD2" duration="00:00:00.0004092" startTime="2012-01-20T13:29:54.6152356+01:00" endTime="2012-01-20T13:29:54.6191444+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28077b89-7bc2-4459-ae8a-912c4830bb38" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="65fc911c-1b6a-40fe-8da7-c61088914177" testId="22850142-30f0-75be-2526-7567af771caf" testName="CalculateNextRunDate_Weekly_OnceAt_NullCurrent_Future_OK" computerName="TM3BUILD2" duration="00:00:00.0019290" startTime="2012-01-20T13:29:54.6220760+01:00" endTime="2012-01-20T13:29:54.6279392+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65fc911c-1b6a-40fe-8da7-c61088914177" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="9a468526-10cb-4e39-9764-09c77a9bdc0b" testId="dd9ba7df-1450-912e-caa8-fff91028b246" testName="CalculateNextRunDate_Weekly_OnceAt_NullCurrent_Past_OK" computerName="TM3BUILD2" duration="00:00:00.0011465" startTime="2012-01-20T13:29:54.6308708+01:00" endTime="2012-01-20T13:29:54.6435744+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a468526-10cb-4e39-9764-09c77a9bdc0b" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="6680501f-190a-4d49-bbdb-9c67f9b1dea4" testId="562b1d26-e517-58f5-98e5-1532ac2b72a8" testName="CalculateNextRunDate_Weekly_OnceAt1_OK" computerName="TM3BUILD2" duration="00:00:00.0004972" startTime="2012-01-20T13:29:54.6494376+01:00" endTime="2012-01-20T13:29:54.6582324+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6680501f-190a-4d49-bbdb-9c67f9b1dea4" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc255c7e-3f06-4a9f-9dd8-8cc9921b6a5c" testId="3d80fae2-dfd1-c813-71de-2040a4e8bf40" testName="CalculateNextRunDate_Weekly_OnceAt2_OK" computerName="TM3BUILD2" duration="00:00:00.0004369" startTime="2012-01-20T13:29:54.6621412+01:00" endTime="2012-01-20T13:29:54.6660500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc255c7e-3f06-4a9f-9dd8-8cc9921b6a5c" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="650419cd-c3f5-4b78-8efe-f4261be1de46" testId="707c5ced-f6a8-4cac-4577-91d38b8641f1" testName="CalculateNextRunDate_Weekly_OnceAt3_OK" computerName="TM3BUILD2" duration="00:00:00.0004936" startTime="2012-01-20T13:29:54.6699588+01:00" endTime="2012-01-20T13:29:54.6738676+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="650419cd-c3f5-4b78-8efe-f4261be1de46" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="fcaaf3a1-5b12-4264-80a9-db76981fdc98" testId="90c5ce58-3e1a-6653-49cc-d18bac5171b4" testName="CalculateNextRunDate_Weekly_OnceAt4_OK" computerName="TM3BUILD2" duration="00:00:00.0004978" startTime="2012-01-20T13:29:54.6777764+01:00" endTime="2012-01-20T13:29:54.6816852+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcaaf3a1-5b12-4264-80a9-db76981fdc98" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6141721-f665-4d1c-bef0-3c38a2ebf4af" testId="c02a8efd-46f3-ce30-17b3-777898821313" testName="Exectue_NullItem" computerName="TM3BUILD2" duration="00:00:00.0178396" startTime="2012-01-20T13:29:54.6855940+01:00" endTime="2012-01-20T13:29:54.7070924+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6141721-f665-4d1c-bef0-3c38a2ebf4af" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="f94b8f45-9070-4640-a05b-acec2124c67f" testId="b06a67c8-69f6-85fd-0cdd-426ccbcd3471" testName="Execute_Automatic_OK" computerName="TM3BUILD2" duration="00:00:00.0935996" startTime="2012-01-20T13:29:54.7100240+01:00" endTime="2012-01-20T13:29:54.8067668+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f94b8f45-9070-4640-a05b-acec2124c67f" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="266d5461-afec-4fba-80e8-a39b5c1afbf1" testId="1907c2fc-318f-c48e-af70-8b728f4aa610" testName="Execute_Manual_OK" computerName="TM3BUILD2" duration="00:00:00.0274062" startTime="2012-01-20T13:29:54.8116528+01:00" endTime="2012-01-20T13:29:54.8419460+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="266d5461-afec-4fba-80e8-a39b5c1afbf1" dataRowInfo="">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ce91908-ff21-47f4-ba2e-b8f586cf6ea3" testId="203c4401-5830-103a-4ce2-51aa9eb54f90" testName="Execute_ProjectRootElementThrowsException" computerName="TM3BUILD2" duration="00:00:00.0200561" startTime="2012-01-20T13:29:54.8468320+01:00" endTime="2012-01-20T13:29:54.8702848+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ce91908-ff21-47f4-ba2e-b8f586cf6ea3" dataRowInfo="">
+    </UnitTestResult>
+  </Results>
+</TestRun>

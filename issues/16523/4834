@@ -1,0 +1,11 @@
+--- C:/projects/trx2html-99756-orig/TRX2HTML Solution/trx2html/Parser/TrxParser.cs	Wed Nov 20 09:15:24 2013
++++ C:/projects/trx2html-99756/TRX2HTML Solution/trx2html/Parser/TrxParser.cs	Wed Nov 20 09:40:41 2013
+@@ -88,7 +88,7 @@ namespace trx2html.Parser
+                              TestClass = testClass,
+                              TestMethodName = u.Attribute("name").Value,
+                              Description = desc,
+-                             Status = r.Attribute("outcome").Value,
++                             Status = (r.Attribute("outcome") == null) ? "Failed" : r.Attribute("outcome").Value,
+                              Duration = ParseDuration(r,"duration"),
+                              ErrorInfo = ParseErrorInfo(r),
+                              ComputerName = r.Attribute("computerName").Value

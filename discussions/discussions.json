@@ -1,0 +1,112 @@
+[
+  {
+    "Id": "26966",
+    "Title": "Only see default page",
+    "LatestDate": "2013-02-05T23:00:12.67-08:00"
+  },
+  {
+    "Id": "29037",
+    "Title": "Can you provide a sample TFSBuild.proj?",
+    "LatestDate": "2008-06-04T07:50:44.637-07:00"
+  },
+  {
+    "Id": "218967",
+    "Title": "is it working in windows 7?",
+    "LatestDate": "2011-05-17T09:33:51.153-07:00"
+  },
+  {
+    "Id": "232691",
+    "Title": "Incomplete results for Ordered Test",
+    "LatestDate": "2010-10-28T11:10:39.58-07:00"
+  },
+  {
+    "Id": "255658",
+    "Title": "Removal of need for JavaScript",
+    "LatestDate": "2011-05-24T02:50:54.647-07:00"
+  },
+  {
+    "Id": "256556",
+    "Title": "Test type support?",
+    "LatestDate": "2011-05-05T13:54:10.973-07:00"
+  },
+  {
+    "Id": "256559",
+    "Title": "How does this compare to trxviewer?",
+    "LatestDate": "2011-05-24T02:56:14.43-07:00"
+  },
+  {
+    "Id": "257186",
+    "Title": "Configure trx2html in VS2010 Coded UI project",
+    "LatestDate": "2011-05-11T04:23:25.963-07:00"
+  },
+  {
+    "Id": "257832",
+    "Title": "trx2html 0.7 crashes with \"Not Runnable\" result entries",
+    "LatestDate": "2011-05-17T09:32:36.113-07:00"
+  },
+  {
+    "Id": "271661",
+    "Title": "TRX to HTML",
+    "LatestDate": "2011-09-06T10:57:49-07:00"
+  },
+  {
+    "Id": "272480",
+    "Title": "TRX to HTML- Ordered Tests ",
+    "LatestDate": "2012-03-19T03:24:43.05-07:00"
+  },
+  {
+    "Id": "357906",
+    "Title": "Source is missing Img2B64",
+    "LatestDate": "2012-05-31T14:42:15.937-07:00"
+  },
+  {
+    "Id": "396138",
+    "Title": "Support for Data-Driven test results?",
+    "LatestDate": "2012-09-19T13:19:09.66-07:00"
+  },
+  {
+    "Id": "432130",
+    "Title": "HTML is not generating when executing trx2html <trxfile name.trx> in command promt",
+    "LatestDate": "2013-02-05T22:04:40.023-08:00"
+  },
+  {
+    "Id": "433971",
+    "Title": "how to log ignored / skipped / disabled tests?",
+    "LatestDate": "2013-02-21T13:38:31.027-08:00"
+  },
+  {
+    "Id": "440693",
+    "Title": "i have not seen any files or results in html file",
+    "LatestDate": "2013-04-17T19:34:38.377-07:00"
+  },
+  {
+    "Id": "451952",
+    "Title": "Coded UI : TRX to HTML Reports",
+    "LatestDate": "2013-07-31T04:29:00.187-07:00"
+  },
+  {
+    "Id": "462800",
+    "Title": "VS 2013",
+    "LatestDate": "2015-03-11T13:42:39.303-07:00"
+  },
+  {
+    "Id": "550479",
+    "Title": "Can somebody bother and explain how to use it ? Please it's very urgent",
+    "LatestDate": "2014-12-09T19:34:19.137-08:00"
+  },
+  {
+    "Id": "576422",
+    "Title": "VS2013 > HTML is not generating when executing trx2html <trxfile name.trx> in command promt",
+    "LatestDate": "2015-03-04T06:40:58.853-08:00"
+  },
+  {
+    "Id": "587893",
+    "Title": "Trx2Html converter is not getting installed.",
+    "LatestDate": "2015-03-18T03:52:47.533-07:00"
+  },
+  {
+    "Id": "633844",
+    "Title": "Offer of development progression...",
+    "LatestDate": "2015-04-27T05:57:18.23-07:00"
+  }
+]

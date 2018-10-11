@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Add the assembly summary grouping by class. and then the Class Summary",
+    "LastUpdatedDate": "2017-12-08T06:23:36.177-08:00",
+    "PlannedForRelease": "trx2html 0.7",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2011-05-18T10:35:55.09-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Summary by Assembly",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 13533
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

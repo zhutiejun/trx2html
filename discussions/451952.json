@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1075067",
+    "ThreadId": "451952",
+    "Html": "Hi,\r<br />\n<br />\nI am trying to automate a WPF application. To generate a detailed test reports for the test runs, I tried to convert TRX to HTML using with the help of trx2html exe.<br />\n\r<br />\nThe report provides the tests that are executed along with the status. But I do not receive any comments/message which I've used in the script when I data drive. For single iteration I am able to see messages for failed test cases alone.\r<br />\n<br />\nCan anyone let me know whether the report works fine when the test is data driven. Also, can we get some messages for both Pass and Fail. \r<br />\n<br />\nAny help will be highly appreciated\r<br />\n<br />\nThanks,\r<br />\nHarini S<br />\n",
+    "PostedDate": "2013-07-31T04:29:00.187-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

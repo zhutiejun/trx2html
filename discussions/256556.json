@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "608101",
+    "ThreadId": "256556",
+    "Html": "\r\n<p>Does this tool support other test types beyond unit tests? I saw a mention in the early blog posts for this tool that it only supported unit tests.</p>\r\n<p>So was wondering whether it fully or partially supports other test types like ordered tests, load tests, non-unit tests.</p>\r\n",
+    "PostedDate": "2011-05-05T13:54:10.973-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

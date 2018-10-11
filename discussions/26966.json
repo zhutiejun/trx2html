@@ -1,0 +1,74 @@
+[
+  {
+    "Id": "90125",
+    "ThreadId": "26966",
+    "Html": "\r\nWhen I use this tool I only see the page titled <br />\"This is a default test run configuration for a local test run\"<br /><br />I click on \"Totals\", \"Summary\", \"Detail\" and \"Environmental Information\", but no additional pages appear.<br /><br />I must be doing something wrong.<br />thanks<br />John<br />",
+    "PostedDate": "2008-05-01T15:27:56.407-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "95326",
+    "ThreadId": "26966",
+    "Html": "could you provide more details? <br>\r\n<br>\r\ncommand line you are executed, and sample .trx would be fine<br>\r\n",
+    "PostedDate": "2008-05-28T14:48:03.163-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "100753",
+    "ThreadId": "26966",
+    "Html": "Hi,<br>\r\n<br>\r\nI'm having the same problem as John. The command I use is very simple: trx2html&nbsp;&quot;<a href=\"mailto:dmytro.lapshyn@ENGINE\">dmytro.lapshyn@ENGINE</a> 2008-06-25 14_56_25.trx&quot; <br>\r\n<br>\r\nNot sure how to attach the sample TRX to the post... I'm posting the XML contents &quot;as is&quot;:<br>\r\n<hr>\r\n<br>\r\n<p>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br>\r\n&lt;TestRun id=&quot;5c92f7c1-66b8-4543-be30-dd10ae8206cd&quot; name=&quot;<a href=\"mailto:dmytro.lapshyn@ENGINE\">dmytro.lapshyn@ENGINE</a> 2008-06-25 14:56:25&quot; runUser=&quot;DOMAIN\\username&quot; xmlns=&quot;<a href=\"http://microsoft.com/schemas/VisualStudio/TeamTest/2006\">http://microsoft.com/schemas/VisualStudio/TeamTest/2006</a>&quot;&gt;<br>\r\n&nbsp; &lt;TestRunConfiguration name=&quot;Local Test Run&quot; id=&quot;a43108ab-bb46-4f3d-af59-38687f723131&quot;&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;Description&gt;This is a default test run configuration for a local test run.&lt;/Description&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;Deployment runDeploymentRoot=&quot;E:\\Temp\\dmytro.lapshyn_ENGINE 2008-06-25 14_56_25&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;TestTypeSpecific /&gt;<br>\r\n&nbsp; &lt;/TestRunConfiguration&gt;<br>\r\n&nbsp; &lt;ResultSummary outcome=&quot;Failed&quot;&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;Counters total=&quot;2&quot; executed=&quot;2&quot; passed=&quot;1&quot; error=&quot;0&quot; failed=&quot;1&quot; timeout=&quot;0&quot; aborted=&quot;0&quot; inconclusive=&quot;0&quot; passedButRunAborted=&quot;0&quot; notRunnable=&quot;0&quot; notExecuted=&quot;0&quot; disconnected=&quot;0&quot; warning=&quot;0&quot; completed=&quot;0&quot; inProgress=&quot;0&quot; pending=&quot;0&quot; /&gt;<br>\r\n&nbsp; &lt;/ResultSummary&gt;<br>\r\n&nbsp; &lt;Times creation=&quot;2008-06-25T14:56:25.7396530+03:00&quot; queuing=&quot;2008-06-25T14:56:28.9682926+03:00&quot; start=&quot;2008-06-25T14:56:29.6821872+03:00&quot; finish=&quot;2008-06-25T14:56:50.8206942+03:00&quot; /&gt;<br>\r\n&nbsp; &lt;TestDefinitions&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;ManualTest name=&quot;ManualTest1&quot; storage=&quot;c:\\users\\dmytrol\\documents\\visual studio 2008\\projects\\testproject1\\manualtest1.mtx&quot; id=&quot;769c9c16-c618-4630-986b-b3bd69c6272a&quot;&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Css projectStructure=&quot;&quot; iteration=&quot;&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Owners&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Owner name=&quot;&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Owners&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Execution id=&quot;a1fead5c-b83d-4944-be31-a987e38d5bd9&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;BodyText&gt;To the Test Author</p>\r\n<p>This template provides a structure you can use to create a manual test. </p>\r\n<p>** What is a manual test? **</p>\r\n<p>A manual test is a description of test steps that a tester performs. Typically, manual tests are used when the test steps are difficult or time-consuming to automate, or cannot be automated—-for example, to determine a component's behavior when network connectivity is lost. Visual Studio Team Test treats manual tests the same as automated tests. For example, it displays manual tests in the Team Test windows. It also tracks manual test results the same way it tracks automated test results, and displays them in the Test Results window. </p>\r\n<p>** Using this template **</p>\r\n<p>Modify the &quot;Test Title&quot; text to provide a two- to three-word description of your test. Under the &quot;Test Details&quot; heading, describe what this manual test will verify. Under the &quot;Test Target&quot; heading, describe the specific functionality that this test will exercise. In the &quot;Test Steps&quot; table, describe exactly what steps to take, and in what order, to complete the test. For each step, state the result that the tester should expect. The &quot;Revision History&quot; table lists the changes made to the test, who made the changes (an e-mail alias is often used), and when each change was made.</p>\r\n<p>----------<br>\r\nTest Title: <br>\r\n(Enter the test name here.)</p>\r\n<p>Test Details: <br>\r\n(Provide the tester with detailed information about what this test exercises or validates.)</p>\r\n<p>Test Target: <br>\r\n(Describe the functionality that is being tested.)</p>\r\n<p>Test Steps: <br>\r\n(Provide the tester with step-by-step instructions that explain how to complete the manual test.)<br>\r\nStep No.&nbsp;&nbsp;&nbsp;&nbsp; Step Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Expected Result</p>\r\n<p>&nbsp;<br>\r\nRevision History: <br>\r\n(Record the revisions that you and others make to this test.)<br>\r\nAuthor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Change Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time/Date modified&lt;/BodyText&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;/ManualTest&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;ManualTest name=&quot;ManualTest2&quot; storage=&quot;c:\\users\\dmytrol\\documents\\visual studio 2008\\projects\\testproject1\\manualtest2.mtx&quot; id=&quot;44bfeadd-aabb-48d3-9bc8-62c3604ecdbc&quot;&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Css projectStructure=&quot;&quot; iteration=&quot;&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Owners&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Owner name=&quot;&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Owners&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Workitems&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Workitem&gt;6344&lt;/Workitem&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Workitems&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Execution id=&quot;5bf40253-79da-4a11-9642-e8cd6199d371&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;BodyText&gt;To the Test Author</p>\r\n<p>This template provides a structure you can use to create a manual test. </p>\r\n<p>** What is a manual test? **</p>\r\n<p>A manual test is a description of test steps that a tester performs. Typically, manual tests are used when the test steps are difficult or time-consuming to automate, or cannot be automated—-for example, to determine a component's behavior when network connectivity is lost. Visual Studio Team Test treats manual tests the same as automated tests. For example, it displays manual tests in the Team Test windows. It also tracks manual test results the same way it tracks automated test results, and displays them in the Test Results window. </p>\r\n<p>** Using this template **</p>\r\n<p>Modify the &quot;Test Title&quot; text to provide a two- to three-word description of your test. Under the &quot;Test Details&quot; heading, describe what this manual test will verify. Under the &quot;Test Target&quot; heading, describe the specific functionality that this test will exercise. In the &quot;Test Steps&quot; table, describe exactly what steps to take, and in what order, to complete the test. For each step, state the result that the tester should expect. The &quot;Revision History&quot; table lists the changes made to the test, who made the changes (an e-mail alias is often used), and when each change was made.</p>\r\n<p>----------<br>\r\nTest Title: <br>\r\n(Enter the test name here.)</p>\r\n<p>Test Details: <br>\r\n(Provide the tester with detailed information about what this test exercises or validates.)</p>\r\n<p>Test Target: <br>\r\n(Describe the functionality that is being tested.)</p>\r\n<p>Test Steps: <br>\r\n(Provide the tester with step-by-step instructions that explain how to complete the manual test.)<br>\r\nStep No.&nbsp;&nbsp;&nbsp;&nbsp; Step Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Expected Result</p>\r\n<p>&nbsp;<br>\r\nRevision History: <br>\r\n(Record the revisions that you and others make to this test.)<br>\r\nAuthor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Change Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time/Date modified&lt;/BodyText&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;/ManualTest&gt;<br>\r\n&nbsp; &lt;/TestDefinitions&gt;<br>\r\n&nbsp; &lt;TestLists&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;TestList name=&quot;Results Not in a List&quot; id=&quot;8c84fa94-04c1-424b-9868-57a2d4851a1d&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;TestList name=&quot;All Loaded Results&quot; id=&quot;19431567-8539-422a-85d7-44ee4e166bda&quot; /&gt;<br>\r\n&nbsp; &lt;/TestLists&gt;<br>\r\n&nbsp; &lt;TestEntries&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;TestEntry testId=&quot;44bfeadd-aabb-48d3-9bc8-62c3604ecdbc&quot; executionId=&quot;5bf40253-79da-4a11-9642-e8cd6199d371&quot; testListId=&quot;8c84fa94-04c1-424b-9868-57a2d4851a1d&quot; /&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;TestEntry testId=&quot;769c9c16-c618-4630-986b-b3bd69c6272a&quot; executionId=&quot;a1fead5c-b83d-4944-be31-a987e38d5bd9&quot; testListId=&quot;8c84fa94-04c1-424b-9868-57a2d4851a1d&quot; /&gt;<br>\r\n&nbsp; &lt;/TestEntries&gt;<br>\r\n&nbsp; &lt;Results&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;ManualTestResult executionId=&quot;5bf40253-79da-4a11-9642-e8cd6199d371&quot; testId=&quot;44bfeadd-aabb-48d3-9bc8-62c3604ecdbc&quot; testName=&quot;ManualTest2&quot; computerName=&quot;ENGINE&quot; duration=&quot;00:00:15.1444733&quot; startTime=&quot;2008-06-25T14:56:29.8745774+03:00&quot; endTime=&quot;2008-06-25T14:56:45.0079710+03:00&quot; testType=&quot;7a24f8ff-85da-d664-ef44-83ff4743dae6&quot; outcome=&quot;Passed&quot; testListId=&quot;8c84fa94-04c1-424b-9868-57a2d4851a1d&quot; testFile=&quot;C:\\Users\\DmytroL\\Documents\\Visual Studio 2008\\Projects\\TestProject1\\TestResults\\dmytro.lapshyn_ENGINE 2008-06-25 14_56_25\\Out\\manualtest2.mtx&quot;&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Comments&gt;abcde&lt;/Comments&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;/ManualTestResult&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;ManualTestResult executionId=&quot;a1fead5c-b83d-4944-be31-a987e38d5bd9&quot; testId=&quot;769c9c16-c618-4630-986b-b3bd69c6272a&quot; testName=&quot;ManualTest1&quot; computerName=&quot;ENGINE&quot; duration=&quot;00:00:05.4983440&quot; startTime=&quot;2008-06-25T14:56:45.0470350+03:00&quot; endTime=&quot;2008-06-25T14:56:50.5355270+03:00&quot; testType=&quot;7a24f8ff-85da-d664-ef44-83ff4743dae6&quot; outcome=&quot;Failed&quot; testListId=&quot;8c84fa94-04c1-424b-9868-57a2d4851a1d&quot; testFile=&quot;C:\\Users\\DmytroL\\Documents\\Visual Studio 2008\\Projects\\TestProject1\\TestResults\\dmytro.lapshyn_ENGINE 2008-06-25 14_56_25\\Out\\manualtest1.mtx&quot;&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Comments&gt;1234&lt;/Comments&gt;<br>\r\n&nbsp;&nbsp;&nbsp; &lt;/ManualTestResult&gt;<br>\r\n&nbsp; &lt;/Results&gt;<br>\r\n&lt;/TestRun&gt;</p>\r\n",
+    "PostedDate": "2008-06-25T05:44:12.867-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "101070",
+    "ThreadId": "26966",
+    "Html": "Any response on this? I am running into this same issue.<br>\r\n<br>\r\nThanks,<br>\r\nAmar\r\n",
+    "PostedDate": "2008-06-26T11:51:20.353-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "101510",
+    "ThreadId": "26966",
+    "Html": "Sorry, but the tool only supports &quot;TestMethods&quot;, however you can extend the code to support ManualTests !!<br>\r\n<br>\r\n<br>\r\n",
+    "PostedDate": "2008-06-29T15:15:13.77-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "106914",
+    "ThreadId": "26966",
+    "Html": "<p>Hi,</p>\r\n<p>I have run load test via VS 2008 Test Edition and got a generated TRX result file. There was no manual step involved anywhere. Please let me know if I am missing anything over here.</p>\r\n<p>Thanks,</p>\r\n<p>Amar</p>\r\n",
+    "PostedDate": "2008-07-24T15:27:03.853-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "107198",
+    "ThreadId": "26966",
+    "Html": "Amar,<br>\r\n<br>\r\nWhen you feed this TRX to the utility, do you get a correctly working HTML page?\r\n",
+    "PostedDate": "2008-07-25T17:19:52.79-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "107211",
+    "ThreadId": "26966",
+    "Html": "<p>Hi,<br>\r\n<br>\r\nNope. I run into same issue which is mentioned by john2069 above:<br>\r\n<br>\r\n<em>When I use this tool I only see the page titled <br>\r\n&quot;This is a default test run configuration for a local test run&quot;<br>\r\n<br>\r\nI click on &quot;Totals&quot;, &quot;Summary&quot;, &quot;Detail&quot; and &quot;Environmental Information&quot;, but no additional pages appear.</em><br>\r\n<br>\r\nThanks,</p>\r\n<p>Amar</p>\r\n",
+    "PostedDate": "2008-07-26T00:14:18.903-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "997060",
+    "ThreadId": "26966",
+    "Html": "Hi\r<br />\n<br />\nI am having prblem for TestMethod as well. Offcourse not as above but it is showing only \r<br />\n<br />\nD:\\share\\TRX2HTML_A\\0.6&gt;trx2html atul.mhetre_NTPC01395 2013-01-22 15_05_51.trx\r<br />\ntrx2html.exe\r<br />\n  Create HTML reports of VSTS TestRuns. (c)rido'08\r<br />\nversion:0.6.0.2798\r<br />\n<br />\nUsage: trx2html &lt;TestResult&gt;.trx\r<br />\n<br />\nD:\\share\\TRX2HTML_A\\0.6&gt;\r<br />\n<br />\nIts not generating any HTML file. Plz help if I am doing anything wrong. Help in this regard now will  be highly appreciated.\r<br />\n<br />\nRegards,\r<br />\nSachin<br />\n",
+    "PostedDate": "2013-02-05T23:00:12.67-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

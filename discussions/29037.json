@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "96747",
+    "ThreadId": "29037",
+    "Html": "I'd like to use this tool after a TFS 2008 CI Build finishes. However, I can't seem to get things working based on your previous post:<br>\r\nhttp://blogs.msdn.com/rido/archive/2007/05/24/testresults-reports-in-tfs-builds.aspx<br>\r\n<br>\r\nDo these instructions still work for TFS 2008? If yes, then can you please provide a sample TFSBuild.proj file?<br>\r\n<br>\r\n<br>\r\n",
+    "PostedDate": "2008-06-04T07:50:44.637-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

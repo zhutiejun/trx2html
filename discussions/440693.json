@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1032152",
+    "ThreadId": "440693",
+    "Html": "hi yesterday i ran tow load tests in task scheduler .after ran the load test i will try to convert the trx file   results  to html .i will follow the procedure  below url(<a href=\"http://trx2html.codeplex.com/\" rel=\"nofollow\">http://trx2html.codeplex.com/</a>) and used 0.6 version trx2html file because my vsts version is 2010.but even i have followed the same procedure: after done the same procedure i got empty files in my html file.why? reply e asap.<img src=\"![Image](http://example.com/logo.jpg)\" alt=\"Image\" /><br />\n",
+    "PostedDate": "2013-04-17T19:34:38.377-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

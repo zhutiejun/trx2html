@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "the icons to expand the StackTrace are pretty nice.\n\nunfortunately they do not show the \"TextMessages\" created through:\n__TestContext.WriteLine(\"some text\");__\n\nexcerpt from the TRX file:\n\n```\n<UnitTestResult outcome=\"Failed\" ... testName=\"MyTest1\">\n  <Output>\n    <ErrorInfo>\n      <Message>Assert.Fail failed. explicitly focring assertion to fail</Message>\n      <StackTrace> at Dummy3.tmp1.MyTest1() in E:\\TEST\\Dummy3\\LocalTest\\tmp1.cs:line 91 </StackTrace>\n    </ErrorInfo>\n    <TextMessages>\n      <Message>my custom message 1</Message>\n      <Message>my custom message 2</Message>\n    </TextMessages>\n  </Output>\n  <ResultFiles>\n    <ResultFile path=\"MYPC\\MyTest1.png\"/>\n  </ResultFiles>\n  <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>\n</UnitTestResult>\n```\ncould they maybe be added to the html report?",
+    "LastUpdatedDate": "2015-04-27T06:49:51.473-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2013-02-22T06:48:42.667-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "messages from TestContext.WriteLine",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 16062
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi All,\r\n\r\nI too would like to see this functionality - to make the report more complete, so as to see the output of TestContext.WriteLine.\r\n\r\nMany thanks,\r\n\r\nmrplatypus, aka Dave",
+      "PostedDate": "2015-04-27T06:49:51.473-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

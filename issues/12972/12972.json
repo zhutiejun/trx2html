@@ -1,0 +1,81 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-05-17T00:56:10.257-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When a unit test ends unexpectedly in VS 2010, the @duration attribute is not populated, which causes the MainSummary and TestClassesSummary to be incomplete just as in Item #5278.  Here is an example of the XML:\n \n    <UnitTestResult executionId=\"a2e1bef5-d6d7-4019-a137-e095acbb89cf\" testId=\"46116b6a-20e9-3f1e-6ffd-efb9a65d5178\" testName=\"SessionScopeMultiThreadTest\" computerName=\"BUDDY-HACKETT\" startTime=\"2011-02-08T11:15:13.1437129-05:00\" endTime=\"2011-02-08T11:15:15.7859771-05:00\" testType=\"13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b\" testListId=\"8c84fa94-04c1-424b-9868-57a2d4851a1d\" relativeResultsDirectory=\"a2e1bef5-d6d7-4019-a137-e095acbb89cf\">\n      <Output>\n        <ErrorInfo>\n          <Message>The agent process was stopped while the test was running.</Message>\n        </ErrorInfo>\n      </Output>\n    </UnitTestResult>\n \nWhen the @duration attribute is not present, the value of \"\\n   \" gets written to the HTML file, which causes the \"fromTimeStamp()\" function to fail because the input value cannot be split (t[0] is not present):\n \nDate.prototype.fromTimeStamp= function(ts){\n   var t = ts.split(\":\"); \n \nI am uploading a patch that includes a fix to the vs2010.xsl to fix the issue:\n \n      <td>\n        <xsl:choose>\n          <xsl:when test=\"@duration\">\n            <xsl:value-of select=\"@duration\" />\n          </xsl:when>\n          <xsl:otherwise>\n            00:00:00:0000000\n          </xsl:otherwise>\n        </xsl:choose>\n      </td>",
+    "LastUpdatedDate": "2013-05-16T03:05:49.63-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2011-02-08T08:24:54.82-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VS 2010 Test Classes Summary not populating on errored test",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 12972
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3763,
+      "FileName": "vs2010.xsl",
+      "DownloadUrl": ".\\3763"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Where does this patch go? I can find no place to make the change. Thanks.",
+      "PostedDate": "2011-02-16T10:02:02.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-16T11:59:18.223-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "If you download the source code, there are a couple of places where the .xsl goes.  TRX2HTML Solution\\RidoTasks.trx2html\\vs2010.xsl and TRX2HTML Solution\\trx2html\\vs2010.xsl.",
+      "PostedDate": "2011-04-14T06:37:34.277-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Can you try with the new version?",
+      "PostedDate": "2011-05-15T15:19:51.143-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved with changeset 77959.",
+      "PostedDate": "2011-05-17T00:56:10.257-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:39:01.2-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:05:49.63-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

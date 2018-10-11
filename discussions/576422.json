@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1337609",
+    "ThreadId": "576422",
+    "Html": "Hi,\r<br />\n<br />\nI have downloaded trx2html 0.7.3. \r<br />\n<br />\nI have trx file present in below path.\r<br />\n&quot;F:\\Soft\\0.7.3\\lalit_admin_AGI-LT-M053 2014-12-18 13_08_52.trx&quot;\r<br />\n<br />\nIn Command Promt, I am passing below command to generate html file.\r<br />\n<br />\nF:\\Soft\\0.7.3&gt;trx2html.exe F:\\Soft\\0.7.3\\lalit_admin_AGI-LT-M053 2014-12-18 13_0\r<br />\n8_52.trx\r<br />\n<br />\nAlso tried below command also:\r<br />\n<br />\nF:\\Soft\\0.7.3&gt;trx2html.exe F:\\Soft\\0.7.3\\lalit_admin_AGI-LT-M053 2014-12-18 13_0\r<br />\n8_52.trx F:\\Soft\\0.7.3\\HTMLPage.html\r<br />\n<br />\nBut still the Html file is not generating on the given path.\r<br />\n<br />\nCan anyone help me to understand where exactly I am going wrong.\r<br />\n<br />\nThanks &amp; Regards,\r<br />\nLalit Nankani<br />\n",
+    "PostedDate": "2014-12-29T04:54:53.643-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1359812",
+    "ThreadId": "576422",
+    "Html": "I think in your problem is that you have spaces in path(in date part):\r<br />\n<br />\nF:\\Soft\\0.7.3\\lalit_admin_AGI-LT-M053 2014-12-18 13_0 8_52.trx\r<br />\n<br />\ntry to use it with quotes:\r<br />\n<br />\n&quot;F:\\Soft\\0.7.3\\lalit_admin_AGI-LT-M053 2014-12-18 13_0 8_52.trx&quot;<br />\n",
+    "PostedDate": "2015-03-04T06:40:58.853-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

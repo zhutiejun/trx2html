@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1004690",
+    "ThreadId": "433971",
+    "Html": "thanks for this cool utility.\r<br />\n<br />\ni have authored both, regular <em>unit tests</em> and also <em>coded ui tests</em> with vs 2010 (premium edition) and vs 2012 (premium edition).\r<br />\ni'm running the tests through <strong>mstest.exe</strong>\r<br />\n<br />\ni have a couple of tests that are temporarily disabled through <strong>[Ignore]</strong> attribute.\r<br />\nunfortunately they don't get listed in the html report.\r<br />\ni can see the html report has counters for &quot;Inconclusive&quot; and &quot;TestsIgnored&quot;, but both are having a value of &quot;0&quot; in my case.\r<br />\n<br />\ni have tried with both versions of trx2html: <strong>0.7.2</strong> and <strong>0.7.3</strong> .\r<br />\nno luck so far.\r<br />\n<br />\n<br />\ni then took a look at the *.trx itself: notExecuted=&quot;0&quot; notRunnable=&quot;0&quot; inconclusive=&quot;0&quot; aborted=&quot;0&quot;.\r<br />\nso the trx itself does not list any skipped / disabled tests?\r<br />\n<br />\nmstest.exe does write some message to the console output, though:\r<br />\n<em>Warning: The disabled test 'TestMethod3' was removed from the test run.</em>\r<br />\n<br />\nam i missing a particular configuration switch to also log the skipped tests?<br />\n",
+    "PostedDate": "2013-02-21T07:20:09.933-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1004901",
+    "ThreadId": "433971",
+    "Html": "<strong>update:</strong><br />\nmaybe this question will get answered on MS connect:<br />\n<a href=\"https://connect.microsoft.com/VisualStudio/feedback/details/779743/\" rel=\"nofollow\">https://connect.microsoft.com/VisualStudio/feedback/details/779743/</a><br />\n",
+    "PostedDate": "2013-02-21T13:38:31.027-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

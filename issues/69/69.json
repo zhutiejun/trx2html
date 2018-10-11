@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Current version does not works if your testresults includes databind testruns",
+    "LastUpdatedDate": "2013-02-14T12:39:02.537-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2007-06-29T06:29:41.983-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Databinding Support",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 69
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "that is very dissapointing. All of our webtests contain databinding and when we run a load test that contain these webtests we have no results displayed using trx2html.",
+      "PostedDate": "2011-07-13T13:59:21.803-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-16T04:40:24.54-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:39:02.537-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi Rido ,\n\n\nI am running a webtest and a load test and its generating a trx file and if i look into the sample trx file that you have in your code .the test defention is unit test and mine is web test and is different.\n\n<TestDefinitions>\n    <UnitTest name=\"StreamFromResourceTest\" storage=\"d:\\rido\\atcodeplex\\trx2html\\trx2html solution\\trx2html.test\\bin\\release\\trx2html.test.dll\" id=\"92f2efb0-47b6-db8d-fb8f-fdb1003e07f5\">\n      <Css projectStructure=\"\" iteration=\"\" />\n      <Owners>\n        <Owner name=\"\" />\n      </Owners>\n      <DeploymentItems>\n        <DeploymentItem filename=\"trx2html.exe\" />\n      </DeploymentItems>\n      <Execution id=\"da043e5d-7321-4714-a13d-ee5f196a4599\" />\n      <TestMethod codeBase=\"D:\\rido\\atCodePlex\\trx2html\\TRX2HTML Solution\\trx2html.Test\\bin\\Release\\trx2html.Test.dll\" adapterTypeName=\"Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" className=\"trx2html.Test.ResourceReaderTest, trx2html.Test\" name=\"StreamFromResourceTest\" />\n    </UnitTest>\n  </TestDefinitions>\n\n\nI am attaching you my trx file(sample.trx) .\n\nCan any one provide me valuable pointer to the problem ( i dont really know whether what all different types of tests it will support .( iam planning to do a webperformace test ( using webtest and followed by load test ).",
+    "LastUpdatedDate": "2013-04-25T11:57:36.89-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2013-04-25T11:57:35.517-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "I coudnt convert trx file to html.( i am performing a webtest",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 16178
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4736,
+      "FileName": "Sample.trx",
+      "DownloadUrl": ".\\4736"
+    }
+  ],
+  "Comments": []
+}

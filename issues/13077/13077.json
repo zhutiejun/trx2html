@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Unhandled Exception: System.Xml.XmlException: '♂', hexadecimal value 0x0B, is an invalid character. Line 63849, position -4822.\n   at System.Xml.XmlTextReaderImpl.Throw(Exception e)\n   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)\n   at System.Xml.XmlTextReaderImpl.ParseNumericCharRefInline(Int32 startPos, Boolean expand, BufferBuilder internalSubsetBuilder, Int32& charCount, EntityType& entityType)\n   at System.Xml.XmlTextReaderImpl.ParseCharRefInline(Int32 startPos, Int32& charCount, EntityType& entityType)\n   at System.Xml.XmlTextReaderImpl.ParseText(Int32& startPos, Int32& endPos, Int32& outOrChars)\n   at System.Xml.XmlTextReaderImpl.FinishPartialValue()\n   at System.Xml.XmlTextReaderImpl.get_Value()\n   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)\n   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)\n   at System.Xml.XmlDocument.Load(XmlReader reader)\n   at trx2html.VersionFinder.GetFileVersion(String file)\n   at trx2html.Program.Main(String[] args)",
+    "LastUpdatedDate": "2013-04-22T14:51:53.397-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2011-02-22T08:44:08.49-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "XmlException thrown at unknown character",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 13077
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This should be useful:\r\n\r\nhttp://seattlesoftware.wordpress.com/2008/09/11/hexadecimal-value-0-is-an-invalid-character/",
+      "PostedDate": "2013-04-22T14:51:53.397-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

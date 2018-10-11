@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1262358",
+    "ThreadId": "550479",
+    "Html": "Can somebody bother and explain how to use it ? Please it's very urgent<br />\n",
+    "PostedDate": "2014-07-03T05:46:23.54-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1330406",
+    "ThreadId": "550479",
+    "Html": "Give command -<br />\n<br />\nVSTSUnitTestReport.exe &lt;trx file path&gt; &lt;output file name with path&gt; &lt;coverage file path&gt;<br />\n<br />\nsome hints:<br />\n&lt;output file name path&gt;  - output file name to be generated should be given<br />\n&lt;coverage file path&gt;        - .coverage file should be given. This file will be inside 'In' directory<br />\n<br />\nConsider the example below -<br />\n<br />\nVSTSUnitTestReport.exe C:\\PROJ_SYS\\bin\\debug\\TestResults\\sampleTest.trx C:\\bin\\sampleTest.html C:\\PROJ_SYS\\bin\\debug\\TestResults\\admin_BLRNR8L0B0H 2014-12-09 13_57_48\\In\\BLRNR8L0B0H\\data.coverage<br />\n",
+    "PostedDate": "2014-12-09T19:34:19.137-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

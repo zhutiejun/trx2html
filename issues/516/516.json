@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When tests are added to an Ordered test and then ordered test is added to TestList, it doesn't display/drill upto individuals tests.",
+    "LastUpdatedDate": "2013-02-14T12:39:02.133-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2007-07-24T16:44:47.593-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Doesn't display results for ordered/TestList",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 516
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi, I am facing a similar issue. I have the HTML file generated for a TRX file after running an ordered test. \r\nThe ordered test is collection of test methods from about 6 different classes and namespaces arranged in the order I want the VSTS to run.\r\nThe HTML file does not show the list of test methods and if the test passed/failed for a particular test method.\r\nIs this a known issue? or am I missing something?\r\n\r\nThanks,\r\nMike",
+      "PostedDate": "2010-10-28T11:01:43.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-10-28T11:02:11.357-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-06T02:17:10.95-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-17T09:42:42.93-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-26T07:12:37.09-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:39:02.133-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

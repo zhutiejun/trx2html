@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "1109498",
+    "ThreadId": "462800",
+    "Html": "i have tried trx2html with VS 2013.<br />\n<br />\nseems to be working fine ...<br />\n",
+    "PostedDate": "2013-10-19T07:12:05.57-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1337611",
+    "ThreadId": "462800",
+    "Html": "Hello,\r<br />\n<br />\nEven I am using VS 2013, but unable to generate html file. \r<br />\nIt would be really helpful if you can provide the detailed steps that you are following to generate the html file.\r<br />\n<br />\nThanks &amp; Regards,\r<br />\nLalit<br />\n",
+    "PostedDate": "2014-12-29T05:07:09.657-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1362611",
+    "ThreadId": "462800",
+    "Html": "I too am unable to generate HTML reports with Visual Studio 2013 Update 4? Should this work with the 2013 TRX format?<br />\n",
+    "PostedDate": "2015-03-11T13:42:39.303-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

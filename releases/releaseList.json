@@ -1,0 +1,104 @@
+[
+  {
+    "Id": "0",
+    "Name": "trx2html 0.7.3",
+    "DevelopmentStatus": "Beta",
+    "Description": "Fix to (partially) support VS 2012 (vstest.console) generated files",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-01-25T15:52:54.623-08:00",
+    "Files": [
+      {
+        "Id": "ccba5100-3fd1-44c3-9d62-168cd688b60c",
+        "FileName": "trx2html_0.7.3.zip",
+        "Url": "./0/ccba5100-3fd1-44c3-9d62-168cd688b60c",
+        "Type": "Application",
+        "UploadDate": "2013-01-25T15:52:54.453-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "trx2html 0.7.2",
+    "DevelopmentStatus": "Beta",
+    "Description": "Includes Status Icons (without external images !!)",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-11-08T17:22:41.733-08:00",
+    "Files": [
+      {
+        "Id": "19729363-dd07-4592-8161-b305064f7697",
+        "FileName": "RidoTasks_0.7.2.zip",
+        "Url": "./1/19729363-dd07-4592-8161-b305064f7697",
+        "Type": "Application",
+        "UploadDate": "2011-11-08T17:22:32.95-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "trx2html 0.7",
+    "DevelopmentStatus": "Beta",
+    "Description": "This release will include a new Parser based on LINQ, so it will be easier to resolve some of the opened bugs, and opens doors to new functionality.\n\nHowever this release will target only VS2010 TRX files, and will require .NET4\n\nBeta version: 0.7.0.39336",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-05-15T15:17:09.21-07:00",
+    "Files": [
+      {
+        "Id": "e7187a9f-0af8-4055-95eb-339fa3fbdcc7",
+        "FileName": "trx2html.0.7.zip",
+        "Url": "./2/e7187a9f-0af8-4055-95eb-339fa3fbdcc7",
+        "Type": "Application",
+        "UploadDate": "2011-05-15T15:17:09.07-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "trx2hml_VS90",
+    "DevelopmentStatus": "Beta",
+    "Description": "Supports Visual Studio 9.0 Test Results file format. It's in *early stages\", so please, report any bugs you find.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-04-09T17:48:43.09-07:00",
+    "Files": [
+      {
+        "Id": "63601195-c869-43a2-bed0-7eeb323b51a2",
+        "FileName": "trx2hml_0.5.0.290_bin.zip",
+        "Url": "./3/63601195-c869-43a2-bed0-7eeb323b51a2",
+        "Type": "Application",
+        "UploadDate": "2008-02-12T13:40:31.863-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "trx2html0.4",
+    "DevelopmentStatus": "None",
+    "Description": "You can use the tool as .exe file, or msbuild task",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2007-06-28T16:47:34.077-07:00",
+    "Files": [
+      {
+        "Id": "d538b7fe-e260-41b1-9ad4-3717b72b1676",
+        "FileName": "trx2html_0.4.0.0.zip",
+        "Url": "./4/d538b7fe-e260-41b1-9ad4-3717b72b1676",
+        "Type": "Application",
+        "UploadDate": "2007-06-28T16:31:33.94-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "trx2html 0.6",
+    "DevelopmentStatus": "Beta",
+    "Description": "This version supports VS2005, VS2008 and VS2010 trx generated files with the same binaries targeting .Net 2.0",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-04-09T17:58:47.66-07:00",
+    "Files": [
+      {
+        "Id": "e12febda-d693-42aa-a176-b0529d759a26",
+        "FileName": "trx2hml_0.6.zip.zip",
+        "Url": "./5/e12febda-d693-42aa-a176-b0529d759a26",
+        "Type": "Application",
+        "UploadDate": "2010-04-09T17:37:19.867-07:00"
+      }
+    ]
+  }
+]

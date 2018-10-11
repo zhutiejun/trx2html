@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I was using trx2html.css, trx2html.js and trx2html.xsl files to generate test result htmls. Those files were able to generate results reports successfully until I upgrade my test projects to run under Visual Studio 2008. I replaced trx2html.css, trx2html.js and trx2html.xsl files with new Orcas files. Html reports are generating but MainSummary and the TestCalsses Summary tables are not populating completly. Can you please have a look at this issue. I will attach a screenshot of a example html report.\n \nCheers.",
+    "LastUpdatedDate": "2013-02-14T12:39:01.417-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2008-06-10T22:33:57.157-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MainSummary and the TestCalsses Summary tables are not populating completly",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 5278
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1095,
+      "FileName": "trx2htmlIssue.jpg",
+      "DownloadUrl": ".\\1095"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I found the same issue when the unit test duration is 00:00:00.  The following code in trx2html.js assumes that the last portion of the timestamp will contain a dot, which throws a javascript error as ams[1] does not exist in the above case (duration = 00:00:00):\r\n\r\nDate.prototype.fromTimeStamp= function(ts){\r\n   var t = ts.split(\":\");\r\n    var h = t[0];\r\n    var m = t[1];\r\n    var s = t[2];\r\n    var ams = t[2].split(\".\");\r\n    return new Date(0, 0, 0, h, m, ams[0], ams[1].substring(0,3));\r\n}\r\n\r\nUnit test data does not get displayed below the point of the error (i.e. where the unit test duration is 00:00:00).\r\n\r\nThe following modification to check for the array length after the .split() works for me (ams.length > 1 ? ams[1].substring(0,3) : 0):\r\n\r\nDate.prototype.fromTimeStamp= function(ts){\r\n   var t = ts.split(\":\");\r\n    var h = t[0];\r\n    var m = t[1];\r\n    var s = t[2];\r\n    var ams = t[2].split(\".\");\r\n    return new Date(0, 0, 0, h, m, ams[0], ams.length > 1 ? ams[1].substring(0,3) : 0);\r\n}",
+      "PostedDate": "2008-08-01T08:02:21.19-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-08-01T08:02:51.8-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:39:01.417-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

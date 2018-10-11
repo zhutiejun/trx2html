@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 68,
+    "Title": "Subir las fuentes a CodePlex"
+  },
+  {
+    "Id": 69,
+    "Title": "Databinding Support"
+  },
+  {
+    "Id": 105,
+    "Title": "Orcas Support"
+  },
+  {
+    "Id": 516,
+    "Title": "Doesn't display results for ordered/TestList"
+  },
+  {
+    "Id": 648,
+    "Title": "Ignore vs Inconclusive"
+  },
+  {
+    "Id": 1436,
+    "Title": "application exception"
+  },
+  {
+    "Id": 3583,
+    "Title": "Support 2005/2008 formats in one exe"
+  },
+  {
+    "Id": 5278,
+    "Title": "MainSummary and the TestCalsses Summary tables are not populating completly"
+  },
+  {
+    "Id": 10620,
+    "Title": "suppport Firefox"
+  },
+  {
+    "Id": 12972,
+    "Title": "VS 2010 Test Classes Summary not populating on errored test"
+  },
+  {
+    "Id": 13077,
+    "Title": "XmlException thrown at unknown character"
+  },
+  {
+    "Id": 13305,
+    "Title": "Trx Files Generated Using SilverLight Test Framework Fail With: Unhandled Exception: System.ArgumentOutOfRangeException: Length cannot be less than zero."
+  },
+  {
+    "Id": 13490,
+    "Title": "LINQ Parser"
+  },
+  {
+    "Id": 13491,
+    "Title": "New HTML Generator"
+  },
+  {
+    "Id": 13530,
+    "Title": "Paths absolutos a la unidad \"D:\\\" hacen fallar algunos test"
+  },
+  {
+    "Id": 13531,
+    "Title": "Summaty by Assembly"
+  },
+  {
+    "Id": 13532,
+    "Title": "Summary by Assembly"
+  },
+  {
+    "Id": 13533,
+    "Title": "Summary by Assembly"
+  },
+  {
+    "Id": 13535,
+    "Title": "Refactor: Create enum with possible States"
+  },
+  {
+    "Id": 13537,
+    "Title": "Slower Methods"
+  },
+  {
+    "Id": 13990,
+    "Title": "html report not complet for ordered(&nested) CodedUITests (0.7 only exceptions)"
+  },
+  {
+    "Id": 14105,
+    "Title": "NullReferenceException when no tests are executed"
+  },
+  {
+    "Id": 14417,
+    "Title": "Add Status Icons"
+  },
+  {
+    "Id": 14659,
+    "Title": "Error parsing tests with errors"
+  },
+  {
+    "Id": 15349,
+    "Title": "Unhandled exception using 0.7.2"
+  },
+  {
+    "Id": 16052,
+    "Title": "Don't show tooltip to show Test Trace in case there is no trace"
+  },
+  {
+    "Id": 16062,
+    "Title": "messages from TestContext.WriteLine"
+  },
+  {
+    "Id": 16178,
+    "Title": "I coudnt convert trx file to html.( i am performing a webtest"
+  },
+  {
+    "Id": 16523,
+    "Title": "Crash if trx has a test that had an unhandled exception"
+  },
+  {
+    "Id": 17434,
+    "Title": "Missing Files"
+  }
+]

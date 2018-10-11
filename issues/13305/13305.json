@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I get the following output when running the attached trx file. The trx was produced using 'Microsoft.Silverlight.Testing.Harness.VisualStudioLogProvider' within a WP7 test application.\n \nThe application is derived from this code:\nhttp://www.smartypantscoding.com/a-cheat-sheet-for-unit-testing-silverlight-apps-on-windows-phone-7\n \nc:\\>trx2html.exe \"test.trx\"\ntrx2html.exe\n  Create HTML reports of VSTS TestRuns. (c)rido'08\nversion:0.6.0.2798\n \nProcessing vs2008 trx file\n \nUnhandled Exception: System.ArgumentOutOfRangeException: Length cannot be less t\nhan zero.\nParameter name: length\n   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length,\nBoolean fAlwaysCopy)\n   at System.Xml.Xsl.CompiledQuery.Script1.RemoveAssemblyName(String asm)\n   at <xsl:template match=\"/\">(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-d\nebug}runtime, XPathNavigator {urn:schemas-microsoft-com:xslt-debug}current)\n   at Root(XmlQueryRuntime {urn:schemas-microsoft-com:xslt-debug}runtime)\n   at System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver da\ntaSources, XsltArgumentList argumentList, XmlWriter writer, Boolean closeWriter)\n \n   at System.Xml.Xsl.XmlILCommand.Execute(XmlReader contextDocument, XmlResolver\n dataSources, XsltArgumentList argumentList, Stream results)\n   at System.Xml.Xsl.XslCompiledTransform.Transform(String inputUri, String resu\nltsFile)\n   at trx2html.Program.Transform(String fileName, XmlDocument xsl)\n   at trx2html.Program.Main(String[] args)",
+    "LastUpdatedDate": "2013-02-14T12:39:00.847-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2011-04-06T02:35:20.117-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Trx Files Generated Using SilverLight Test Framework Fail With: Unhandled Exception: System.ArgumentOutOfRangeException: Length cannot be less than zero.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 13305
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3854,
+      "FileName": "test.trx",
+      "DownloadUrl": ".\\3854"
+    }
+  ],
+  "Comments": []
+}

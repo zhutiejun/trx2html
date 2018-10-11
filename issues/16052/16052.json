@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When test succeeds, the result trx contains no trace, but still, the green rectangle has a tool tip saying \"Click to see Test Trace\", which actually does nothing. If there is no trace, this tool tip is not needed.",
+    "LastUpdatedDate": "2013-02-19T08:05:19.74-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2013-02-19T08:05:19.74-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Don't show tooltip to show Test Trace in case there is no trace",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 16052
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

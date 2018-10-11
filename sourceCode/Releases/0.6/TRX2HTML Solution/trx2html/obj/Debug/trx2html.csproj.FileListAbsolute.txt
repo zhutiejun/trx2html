@@ -1,0 +1,6 @@
+C:\Users\oldTie\Downloads\trx2html\sourceCode\Releases\0.6\TRX2HTML Solution\trx2html\bin\Debug\trx2html.exe.config
+C:\Users\oldTie\Downloads\trx2html\sourceCode\Releases\0.6\TRX2HTML Solution\trx2html\bin\Debug\trx2html.exe
+C:\Users\oldTie\Downloads\trx2html\sourceCode\Releases\0.6\TRX2HTML Solution\trx2html\bin\Debug\trx2html.pdb
+C:\Users\oldTie\Downloads\trx2html\sourceCode\Releases\0.6\TRX2HTML Solution\trx2html\obj\Debug\trx2html.csprojResolveAssemblyReference.cache
+C:\Users\oldTie\Downloads\trx2html\sourceCode\Releases\0.6\TRX2HTML Solution\trx2html\obj\Debug\trx2html.exe
+C:\Users\oldTie\Downloads\trx2html\sourceCode\Releases\0.6\TRX2HTML Solution\trx2html\obj\Debug\trx2html.pdb

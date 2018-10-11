@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "v0.7\n \nI have a trx file created in mstest (VS2010), but there was an error on the command line, and none of the 700 tests were executed.\n \nUnhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.\n       at trx2html.Parser.TrxParser.<Parse>b__c(<>f__AnonymousType3`2 <>h__TransparentIdentifier3)\n       at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()\n       at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\n       at trx2html.Parser.TestRunResult..ctor(String name, String runUser, IEnumerable`1 items)\n       at trx2html.Parser.TrxParser.Parse(String filePath)\n       at trx2html.ReportGenerator.GenerateReport(String fileName)\n       at trx2html.Program.Main(String[] args)",
+    "LastUpdatedDate": "2013-02-14T12:38:59.113-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2011-08-16T09:43:36.163-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "NullReferenceException when no tests are executed",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 14105
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4186,
+      "FileName": "501426028@PDEVNT 2011-11-29 10_37_57.trx",
+      "DownloadUrl": ".\\4186"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I'm getting the same error.  Running 3 tests.  First 2 Pass, and the 3rd results in Error.",
+      "PostedDate": "2011-11-29T13:18:09.967-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "could you provide the .trx file that is causing this exception?\r\n\r\nthanks\r\n\r\nrido",
+      "PostedDate": "2011-12-03T16:05:05.903-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-12T11:15:38.09-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Please see attached.",
+      "PostedDate": "2011-12-12T11:15:40.157-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:38:59.113-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

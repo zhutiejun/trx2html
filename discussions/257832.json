@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "613568",
+    "ThreadId": "257832",
+    "Html": "\r\n<p>Not sure if this is a big problem (and certainly is a corner case in my scenario) but if results (trx) file contains &quot;Not Runnable&quot; entries, tr2xhtml crashes.</p>\r\n<p>----------------</p>\r\n<p>Processing vs2010 trx file<br>\r\nUnhandled Exception: System.NullReferenceException: Object reference not set toan instance of an object.&nbsp; &nbsp;at trx2html.Parser.TrxParser.&lt;Parse&gt;b__c(&lt;&gt;f__AnonymousType3`2 &lt;&gt;h__TransparentIdentifier3)&nbsp; &nbsp;at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()&nbsp;\r\n &nbsp;at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)&nbsp; &nbsp;at trx2html.Parser.TestRunResult..ctor(String name, String runUser, IEnumerable`1 items)&nbsp; &nbsp;at trx2html.Parser.TrxParser.Parse(String filePath)&nbsp; &nbsp;at trx2html.ReportGenerator.GenerateReport(String\r\n fileName)&nbsp; &nbsp;at trx2html.Program.Main(String[] args)</p>\r\n<p>----------------</p>\r\n<p>If you need to repro this, you can easily write a dummy function (or just some existing generic method) and prefix the function with [TestMethod] to get a Not Runnable entry in your trx file.</p>\r\n<p>Another crash issue is even more corner-case (not related to the above) but the tool crashes because of unhandled XML exceptions:</p>\r\n<p>- Unhandled Exception: System.Xml.XmlException: There are multiple root elements.</p>\r\n<p>- Unhandled Exception: System.Xml.XmlException: Unexpected XML declaration.&nbsp;</p>\r\n<p>I did not want to start a new topic just for the second part. As for the first problem, it's not a huge problem for me personally but it's a bug nonetheless imho. Thanks for your work.</p>\r\n",
+    "PostedDate": "2011-05-16T14:03:54.423-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "614041",
+    "ThreadId": "257832",
+    "Html": "<p>I've checkin a patch to fix this</p>",
+    "PostedDate": "2011-05-17T09:32:36.113-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

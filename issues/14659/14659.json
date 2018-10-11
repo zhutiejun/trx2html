@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "this file generates an exception",
+    "LastUpdatedDate": "2013-02-14T12:38:58.9-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2012-01-20T05:05:23.497-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Error parsing tests with errors",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 14659
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4218,
+      "FileName": "rmpablos@TM3BUILD2 2012-01-20 13_29_42_Any CPU_Debug.trx",
+      "DownloadUrl": ".\\4218"
+    }
+  ],
+  "Comments": []
+}

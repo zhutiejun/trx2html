@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "As a response to a post on how to find a way to report on the results of all Coded UI Tests that have been run similar to the analysis report found in MTM it was suggested that trx2html might be a solution.  When I review the home page it indicates that version .0.7.3 supports VS2012, but I don't see that version as the current download (current is 0.6).\nI downloaded the source and opened with VS2013 and found several missing files.  When I open the solution in find the Img2B64 project and files are missing.  When I perform a build, the file2wssTest.cs and V2\\TestClassRunTest.cs are missing from the trx2html.test project.\n\nAs of right now, this solution is useless to me.",
+    "LastUpdatedDate": "2015-10-18T22:17:45.757-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "trx2html",
+    "ReportedDate": "2015-05-18T07:12:55.527-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Missing Files",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 17434
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I removed file2wssTest.cs and TestClassRunTest.cs from project file and can build the solution successfully. \ni guess these two files are just for some debugging or internal purpose.",
+      "PostedDate": "2015-10-18T22:17:45.757-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

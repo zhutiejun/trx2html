@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8d17b25a-2a90-4a71-87a7-68811278f0fb" name="501426028@PDEVNT 2011-11-29 10:37:57" runUser="PSAMER\501426028" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default test settings" id="3c4b6078-af2c-493c-976e-38c36be0c832">
+    <Deployment userDeploymentRoot="C:\Documents and Settings\501426028\Local Settings\Application Data\VSEQT\QTController\rm\3254" useDefaultDeploymentRoot="false" runDeploymentRoot="501426028_PDEVNT 2011-11-29 10_37_57" />
+    <RemoteController name="pdevnt.psamer.ps.ge.com:6901" />
+    <Execution location="Remote">
+      <TestTypeSpecific />
+      <AgentRule name="Desktop Client">
+        <SelectionCriteria>
+          <AgentProperty name="__Test Environment" value="LMS100-RM195-LMS100-XP" />
+          <AgentProperty name="__Machine Role" value="Desktop Client" />
+        </SelectionCriteria>
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-29T10:37:57.4422872-05:00" queuing="2011-11-29T10:37:57.7704164-05:00" start="2011-11-29T10:37:59.5516892-05:00" finish="2011-11-29T10:47:29.4183584-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="3" error="1" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LMS100-XP" outcome="Error" timestamp="2011-11-29T10:45:38.9950700-05:00">
+        <Text>One of the background threads threw exception: 
+System.InvalidOperationException: Operation cannot be performed.
+   at MS.Internal.AutomationProxies.WindowsMenu.MenuItem.System.Windows.Automation.Provider.IExpandCollapseProvider.Expand()
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode)
+   at MS.Internal.Automation.UiaCoreApi.CheckError(Int32 hr)
+   at MS.Internal.Automation.UiaCoreApi.ExpandCollapsePattern_Expand(SafePatternHandle hobj)
+   at System.Windows.Automation.ExpandCollapsePattern.Expand()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+        <Exception>System.Exception: System.Exception: Exception of type 'System.Exception' was thrown.</Exception>
+      </RunInfo>
+    </RunInfos>
+    <CollectorDataEntries>
+      <Collector agentName="LMS100-XP" isFromRemoteAgent="true" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="LMS100-XP\SystemInformation.xml">System Information from LMS100-XP</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+    <DataCollectorMessages>
+      <DataCollectorMessage timestamp="2011-11-29T10:38:12.6250000-05:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="LMS100-XP" level="Warning">
+        <Text>Diagnostics and data collection from IIS failed: An error occurred during website instrumentation: Internet Information Services could not be found on the machine.</Text>
+      </DataCollectorMessage>
+      <DataCollectorMessage timestamp="2011-11-29T10:45:56.1250000-05:00" dataCollectorUri="datacollector://microsoft/TraceDebugger/1.0" dataCollectorFriendlyName="IntelliTrace" agentName="LMS100-XP" level="Warning">
+        <Text>Diagnostics and data collection from IIS failed: An error occurred during website instrumentation: Internet Information Services could not be found on the machine.</Text>
+      </DataCollectorMessage>
+    </DataCollectorMessages>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LaunchTCW" storage="c:\tmp\501426028_pdevnt 2011-11-29 10_37_57\out\testproject1.dll" id="4a99304e-c56e-ed67-3680-d0c745277b8d">
+      <TcmInformation testCaseId="9578" testRunId="3254" testResultId="100000" />
+      <Execution id="f182389e-abd1-412a-b797-d935386ac5fc" />
+      <TestMethod codeBase="file://smokerw7/AutomationReleaseBuildFolder$/ValidationAutomationRelease/ValidationAutomationRelease_Official/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Functions.ValidationAcceptanceTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LaunchTCW" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="UpgradeBuildDownloadComponents" storage="c:\tmp\501426028_pdevnt 2011-11-29 10_37_57\out\testproject1.dll" id="6369a7a5-6dc5-bc7e-e810-7cb9eef45ff5">
+      <TcmInformation testCaseId="9580" testRunId="3254" testResultId="100002" />
+      <Execution id="eb5a7126-3782-44dd-9d38-0223813c5cb4" />
+      <TestMethod codeBase="file://smokerw7/AutomationReleaseBuildFolder$/ValidationAutomationRelease/ValidationAutomationRelease_Official/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Functions.ValidationAcceptanceTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpgradeBuildDownloadComponents" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="SaveSystemAsNewVersion" storage="c:\tmp\501426028_pdevnt 2011-11-29 10_37_57\out\testproject1.dll" id="e3dc08fc-3d1d-30e9-4657-fd39d9f80f98">
+      <TcmInformation testCaseId="9579" testRunId="3254" testResultId="100001" />
+      <Execution id="e3ba2593-232f-480b-8249-445597bd3ca3" />
+      <TestMethod codeBase="file://smokerw7/AutomationReleaseBuildFolder$/ValidationAutomationRelease/ValidationAutomationRelease_Official/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Functions.ValidationAcceptanceTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveSystemAsNewVersion" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4a99304e-c56e-ed67-3680-d0c745277b8d" executionId="f182389e-abd1-412a-b797-d935386ac5fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TcmInformation testCaseId="9578" testRunId="3254" testResultId="100000" />
+    </TestEntry>
+    <TestEntry testId="e3dc08fc-3d1d-30e9-4657-fd39d9f80f98" executionId="e3ba2593-232f-480b-8249-445597bd3ca3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TcmInformation testCaseId="9579" testRunId="3254" testResultId="100001" />
+    </TestEntry>
+    <TestEntry testId="6369a7a5-6dc5-bc7e-e810-7cb9eef45ff5" executionId="eb5a7126-3782-44dd-9d38-0223813c5cb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TcmInformation testCaseId="9580" testRunId="3254" testResultId="100002" />
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f182389e-abd1-412a-b797-d935386ac5fc" testId="4a99304e-c56e-ed67-3680-d0c745277b8d" testName="LaunchTCW" computerName="LMS100-XP" duration="00:00:07.2015344" startTime="2011-11-29T10:38:14.8437500-05:00" endTime="2011-11-29T10:38:29.1093750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f182389e-abd1-412a-b797-d935386ac5fc" dataRowInfo="">
+      <Output>
+        <StdOut>Entering into Open System with parameter - E:\Site\LMS100_PA\LMS100_PA.tcw
+Entering into Pre Execution task
+ToolboxST window is opened but disabled</StdOut>
+        <DebugTrace>W, 960, 14, 2011/11/29, 10:38:16.031, 2575222906785, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; ClassName=&gt;'WindowsForms10.Window' &amp;&amp; ControlName='SystemOverview'
+\0
+E, 960, 14, 2011/11/29, 10:38:16.031, 2575227233058, QTAgent32.exe, &lt;a class=failure&gt;Playback - {1} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; ClassName=&gt;'WindowsForms10.Window' &amp;&amp; ControlName='SystemOverview') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 960, 14, 2011/11/29, 10:38:16.109, 2575479679449, QTAgent32.exe, Playback - [IMAGE] C:\WINDOWS\TEMP\UITestLogs\LastRun\RPF25.png
+\0
+W, 960, 14, 2011/11/29, 10:38:16.109, 2575479976530, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 960, 14, 2011/11/29, 10:38:20.578, 2589774355353, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 4455 ms. Expected it to take maximum 500 ms.
+W, 960, 14, 2011/11/29, 10:38:22.484, 2595876458369, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 960, 14, 2011/11/29, 10:38:22.484, 2595876846147, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Functions.ValidationAcceptanceTest.LaunchTCW threw exception: 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1</Message>
+          <StackTrace>    at System.IO.Path.Combine(String path1, String path2)
+   at LibraryCommons.BaseCommonLib.ErrSnapshot() in e:\Build\ValidationAutomation\LibraryCommons\LibraryCommons\BaseCommonLib\BaseCommonLib.cs:line 1533
+   at LibraryCommons.SystemCommonLib.OpenSystem(String strSystemPath, Boolean saveLastOpenSystem, Boolean ExpectReadOnly) in e:\Build\ValidationAutomation\LibraryCommons\LibraryCommons\SystemCommonLib\SystemCommonLib.cs:line 120
+   at Functions.ValidationAcceptanceTest.LaunchTCW() in e:\Build\ValidationAutomation\Validation_Acceptance-284\Functions\TestProject1\Functions.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="LMS100-XP" isFromRemoteAgent="true" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="LMS100-XP\SystemInformation.xml">System Information from LMS100-XP</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="LMS100-XP" isFromRemoteAgent="true" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="LMS100-XP\QTAgent32_111129_103822531_960.iTrace">IntelliTrace file for 'QTAgent32.exe' (960)</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="LMS100-XP\ToolboxST_111129_103824250_5544.iTrace">IntelliTrace file for 'ToolboxST.exe' (5544)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3ba2593-232f-480b-8249-445597bd3ca3" testId="e3dc08fc-3d1d-30e9-4657-fd39d9f80f98" testName="SaveSystemAsNewVersion" computerName="LMS100-XP" duration="00:07:18.1562346" startTime="2011-11-29T10:38:29.1406250-05:00" endTime="2011-11-29T10:45:53.1562500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3ba2593-232f-480b-8249-445597bd3ca3" dataRowInfo="">
+      <Output>
+        <DebugTrace>W, 960, 23, 2011/11/29, 10:38:29.734, 2619093486138, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 537 ms. Expected it to take maximum 500 ms.
+W, 960, 23, 2011/11/29, 10:38:29.781, 2619234298932, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:29.843, 2619417091950, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:29.875, 2619526259898, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:38:29.875, 2619526470138, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:38:29.875, 2619529687773, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:29.890, 2619576100311, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:30.046, 2620099715771, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] LeftButtonClick - "[MSAA, VisibleOnly]ControlType='MenuBar' &amp;&amp; Name='Application'"  &lt; Mouse cursor location (960, 432) &gt;
+\0&lt;/a&gt;
+W, 960, 23, 2011/11/29, 10:38:30.171, 2620478181819, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (566, 432) &gt;
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:38:30.203, 2620579995759, QTAgent32.exe, Msaa.IsElementFromPoint: FastAccessibleObjectFromPoint : Failed
+E, 960, 23, 2011/11/29, 10:38:30.203, 2620583668164, QTAgent32.exe, Msaa.GetAccWrapperFromPoint: Failed: -2147024809
+W, 960, 23, 2011/11/29, 10:38:30.234, 2620686084702, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:30.265, 2620782864282, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:38:30.265, 2620783031547, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:38:30.265, 2620783762992, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:30.281, 2620832755848, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:30.437, 2621315561361, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] LeftButtonClick - "[MSAA, VisibleOnly]ControlType='MenuBar' &amp;&amp; Name='Application'"  &lt; Mouse cursor location (960, 432) &gt;
+\0&lt;/a&gt;
+W, 960, 23, 2011/11/29, 10:38:30.546, 2621696522997, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (566, 432) &gt;
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:38:30.578, 2621786047977, QTAgent32.exe, Msaa.IsElementFromPoint: FastAccessibleObjectFromPoint : Failed
+E, 960, 23, 2011/11/29, 10:38:30.578, 2621786237697, QTAgent32.exe, Msaa.GetAccWrapperFromPoint: Failed: -2147024809
+W, 960, 23, 2011/11/29, 10:38:30.609, 2621884188192, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:30.640, 2621981762277, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:38:30.640, 2621981930457, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:38:30.640, 2621982657204, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:38:30.656, 2622031038732, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:39:31.156, 2815628652747, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] LeftButtonClick - "[MSAA, VisibleOnly]ControlType='MenuBar' &amp;&amp; Name='Application'"  &lt; Mouse cursor location (960, 432) &gt;
+\0&lt;/a&gt;
+W, 960, 23, 2011/11/29, 10:40:31.625, 3009145598574, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (566, 432) &gt;
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:40:31.656, 3009249768711, QTAgent32.exe, Msaa.IsElementFromPoint: FastAccessibleObjectFromPoint : Failed
+E, 960, 23, 2011/11/29, 10:40:31.656, 3009249969915, QTAgent32.exe, Msaa.GetAccWrapperFromPoint: Failed: -2147024809
+W, 960, 23, 2011/11/29, 10:40:32.203, 3010981084089, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:40:32.234, 3011070492060, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:40:32.234, 3011070659013, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:40:32.234, 3011071398939, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:40:32.250, 3011116579335, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:41:32.750, 3204718010946, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] LeftButtonClick - "[MSAA, VisibleOnly]ControlType='MenuBar' &amp;&amp; Name='Application'"  &lt; Mouse cursor location (960, 432) &gt;
+\0&lt;/a&gt;
+W, 960, 23, 2011/11/29, 10:42:33.218, 3398241298719, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (566, 432) &gt;
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:42:33.250, 3398339807964, QTAgent32.exe, Msaa.IsElementFromPoint: FastAccessibleObjectFromPoint : Failed
+E, 960, 23, 2011/11/29, 10:42:33.250, 3398340011271, QTAgent32.exe, Msaa.GetAccWrapperFromPoint: Failed: -2147024809
+W, 960, 23, 2011/11/29, 10:42:33.375, 3398739153138, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:42:33.406, 3398827049535, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:42:33.406, 3398827216083, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:42:33.406, 3398827987590, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:42:33.421, 3398872082145, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:43:33.921, 3592476017355, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] LeftButtonClick - "[MSAA, VisibleOnly]ControlType='MenuBar' &amp;&amp; Name='Application'"  &lt; Mouse cursor location (960, 432) &gt;
+\0&lt;/a&gt;
+W, 960, 23, 2011/11/29, 10:44:34.406, 3786000751699, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (566, 432) &gt;
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:44:34.437, 3786100816542, QTAgent32.exe, Msaa.IsElementFromPoint: FastAccessibleObjectFromPoint : Failed
+E, 960, 23, 2011/11/29, 10:44:34.437, 3786101025351, QTAgent32.exe, Msaa.GetAccWrapperFromPoint: Failed: -2147024809
+W, 960, 23, 2011/11/29, 10:44:34.531, 3786426932037, QTAgent32.exe, AL : Mouse click on disabled control: button=Left, modifiers=None, relativeCoordinates={X=-1,Y=-1}
+W, 960, 23, 2011/11/29, 10:44:44.812, 3819304089579, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:44:55.109, 3852249666654, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:44:55.296, 3852884473074, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:44:57.156, 3858834832995, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:44:57.359, 3859454437707, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:44:59.218, 3865418884875, QTAgent32.exe, Playback - [WARNING] Anchor element has not changed after two scrolls. 
+\0
+W, 960, 23, 2011/11/29, 10:44:59.218, 3865419638628, QTAgent32.exe, Playback - [WARNING] Internal warning: Scrolling failed using all requested scrolling flags, so MakeVisible is called with EVF_BY_SETTING_FOCUS. If this closes the container call EnsureVisible explicitly with flags other than default or write a customized scroller.
+\0
+W, 960, 23, 2011/11/29, 10:45:09.468, 3898222865105, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:45:19.765, 3931174811352, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:45:19.968, 3931823344839, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:45:21.859, 3937846915065, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:45:22.062, 3938501039913, QTAgent32.exe, Playback - [WARNING] Internal warning: Vertical programmatic scroll failed\0
+W, 960, 23, 2011/11/29, 10:45:23.937, 3944532752724, QTAgent32.exe, Playback - [WARNING] Anchor element has not changed after two scrolls. 
+\0
+W, 960, 23, 2011/11/29, 10:45:23.937, 3944535981591, QTAgent32.exe, Playback - [WARNING] Internal failure: EnsureVisible via Scrolling failed
+\0
+W, 960, 23, 2011/11/29, 10:45:23.937, 3944536678230, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:45:23.937, 3944536821690, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:45:23.937, 3944537049384, QTAgent32.exe, Playback - [WARNING] Internal warning : The specified control is not visible. 
+\0
+E, 960, 23, 2011/11/29, 10:45:23.937, 3944537267901, QTAgent32.exe, &lt;a class=failure&gt;Playback - {11} [FAILED] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Save System As...'"\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:45:24.015, 3944788557888, QTAgent32.exe, Playback - [IMAGE] C:\WINDOWS\TEMP\UITestLogs\LastRun\RPF31.png
+\0
+W, 960, 23, 2011/11/29, 10:45:24.031, 3944820085539, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:45:24.062, 3944914816755, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:45:24.062, 3944914982655, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:45:24.062, 3944915721948, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:45:24.078, 3944962551618, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:45:24.218, 3945434303793, QTAgent32.exe, &lt;a class=success&gt;Playback - {12} [SUCCESS] LeftButtonClick - "[MSAA, VisibleOnly]ControlType='MenuBar' &amp;&amp; Name='Application'"  &lt; Mouse cursor location (960, 432) &gt;
+\0&lt;/a&gt;
+W, 960, 23, 2011/11/29, 10:45:24.343, 3945808997445, QTAgent32.exe, &lt;a class=success&gt;Playback - {13} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (566, 432) &gt;
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:45:24.375, 3945891936195, QTAgent32.exe, Msaa.IsElementFromPoint: FastAccessibleObjectFromPoint : Failed
+E, 960, 23, 2011/11/29, 10:45:24.375, 3945892223718, QTAgent32.exe, Msaa.GetAccWrapperFromPoint: Failed: -2147024809
+W, 960, 23, 2011/11/29, 10:45:24.437, 3946118223621, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:45:24.468, 3946205245122, QTAgent32.exe, Playback - [WARNING] Internal failure: Method GetBoundingRectangle failed (HRESULT = 0x1, "Incorrect function.") for Name = "Save System As..." ," ControlType = "MenuItem"
+\0
+W, 960, 23, 2011/11/29, 10:45:24.468, 3946205406030, QTAgent32.exe, Playback - [WARNING] Internal failure: Couldn't get clickable point for ScreenUIElement - GetClickablePoint failed
+\0
+W, 960, 23, 2011/11/29, 10:45:24.468, 3946206156243, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:45:24.484, 3946249943349, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 960, 23, 2011/11/29, 10:45:24.625, 3946721583915, QTAgent32.exe, &lt;a class=success&gt;Playback - {14} [SUCCESS] LeftButtonClick - "[MSAA, VisibleOnly]ControlType='MenuBar' &amp;&amp; Name='Application'"  &lt; Mouse cursor location (960, 432) &gt;
+\0&lt;/a&gt;
+W, 960, 23, 2011/11/29, 10:45:24.750, 3947099491512, QTAgent32.exe, &lt;a class=success&gt;Playback - {15} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (566, 432) &gt;
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:45:24.781, 3947190193620, QTAgent32.exe, Msaa.IsElementFromPoint: FastAccessibleObjectFromPoint : Failed
+E, 960, 23, 2011/11/29, 10:45:24.781, 3947190388365, QTAgent32.exe, Msaa.GetAccWrapperFromPoint: Failed: -2147024809
+E, 960, 23, 2011/11/29, 10:45:24.953, 3947741393457, QTAgent32.exe, AL: Playback Error: Microsoft.VisualStudio.TestTools.UITest.Extension.FailedToPerformActionOnHiddenControlException: Cannot perform 'Click' on the hidden control. Additional Details: 
+TechnologyName:  'MSAA'
+Name:  'Save System As...'
+ControlType:  'MenuItem'
+ ---&gt; System.Runtime.InteropServices.COMException: Exception from HRESULT: 0xF004F002
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IScreenElement.MouseButtonClick(Int32 x, Int32 y, Int32 nButton, Int32 fEnsureVisible, String bstrKeyModifiers)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.MouseButtonClick(Int32 x, Int32 y, MouseButtons button, ModifierKeys modifierKeys, Int32 ensureVisible)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.MouseButtonClick(Int32 x, Int32 y, MouseButtons button, ModifierKeys modifierKeys)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Click(MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinates)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, UITestControl uiControl, Point point)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Click(MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinates)
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementation(UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate)
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementationWrapper(UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate)
+W, 960, 23, 2011/11/29, 10:45:25.828, 3950550504903, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Save System As'
+\0
+E, 960, 23, 2011/11/29, 10:45:25.828, 3950550869622, QTAgent32.exe, &lt;a class=failure&gt;Playback - {16} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Save System As') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:45:25.906, 3950800578333, QTAgent32.exe, Playback - [IMAGE] C:\WINDOWS\TEMP\UITestLogs\LastRun\RPF32.png
+\0
+W, 960, 23, 2011/11/29, 10:45:25.906, 3950800861068, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 960, 23, 2011/11/29, 10:45:25.906, 3950801967771, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 954 ms. Expected it to take maximum 500 ms.
+W, 960, 23, 2011/11/29, 10:45:43.984, 4008684329688, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Save System As'
+\0
+E, 960, 23, 2011/11/29, 10:45:43.984, 4008684684606, QTAgent32.exe, &lt;a class=failure&gt;Playback - {17} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Save System As') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:45:44.062, 4008932453451, QTAgent32.exe, Playback - [IMAGE] C:\WINDOWS\TEMP\UITestLogs\LastRun\RPF33.png
+\0
+W, 960, 23, 2011/11/29, 10:45:44.062, 4008932779215, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 960, 23, 2011/11/29, 10:45:44.062, 4008933804846, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 18165 ms. Expected it to take maximum 500 ms.
+W, 960, 23, 2011/11/29, 10:45:44.625, 4010697879309, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:44.875, 4011516509511, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:45.140, 4012370780931, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:45.406, 4013234535885, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:45.671, 4014052095429, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:45.937, 4014916468998, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:46.203, 4015768273848, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:46.453, 4016584120506, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:46.718, 4017424406517, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:46.984, 4018270032231, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 960, 23, 2011/11/29, 10:45:47.125, 4018733487516, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Save System As'
+\0
+E, 960, 23, 2011/11/29, 10:45:47.125, 4018733783340, QTAgent32.exe, &lt;a class=failure&gt;Playback - {18} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Save System As') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 960, 23, 2011/11/29, 10:45:47.218, 4019006092227, QTAgent32.exe, Playback - [IMAGE] C:\WINDOWS\TEMP\UITestLogs\LastRun\RPF34.png
+\0
+W, 960, 23, 2011/11/29, 10:45:47.218, 4019006385618, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 960, 23, 2011/11/29, 10:45:47.218, 4019007376971, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 3147 ms. Expected it to take maximum 500 ms.
+E, 960, 23, 2011/11/29, 10:45:47.218, 4019010075762, QTAgent32.exe, Exception: System.Runtime.InteropServices.COMException
+	Message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+	Stack Trace:    at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+	BaseExceptionMessage: Error HRESULT E_FAIL has been returned from a call to a COM component.
+
+W, 960, 23, 2011/11/29, 10:45:47.312, 4019293268928, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 960, 23, 2011/11/29, 10:45:47.312, 4019293539825, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Functions.ValidationAcceptanceTest.SaveSystemAsNewVersion threw exception: 
+Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotFoundException: The playback failed to find the control with the given search properties. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'Window'
+Name:  'Save System As'
+ ---&gt; System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.</Message>
+          <StackTrace>    at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor(String queryId)
+ --- End of inner exception stack trace ---
+    at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapControlNotFoundException(COMException ex, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FromQueryId(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.SearchTopLevelWindow(ISearchArgument topLevelSearchArg, String topLevelElementQueryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTitleUpdatedTopLevelWindow(ISearchArgument topLevelSearchArg, String queryId, IList`1 windowTitles)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTopLevelElement(Boolean useCache, Boolean useCacheOnly, ISearchArgument searchArg, IList`1 windowTitles, Int32&amp; timeLeft)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetElement(Boolean useCache, ISearchArgument searchArg)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.Search(ISearchArgument searchArg)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindInternal()
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Find()
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty(String propertyName)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetPropertyInternal[T](String propertyName)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.get_Name()
+   at Functions.ValidationAcceptanceTest.SaveSystemAsNewVersion() in e:\Build\ValidationAutomation\Validation_Acceptance-284\Functions\TestProject1\Functions.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="LMS100-XP" isFromRemoteAgent="true" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="LMS100-XP\SystemInformation.xml">System Information from LMS100-XP</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="LMS100-XP" isFromRemoteAgent="true" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="LMS100-XP\QTAgent32_111129_104547312_960.iTrace">IntelliTrace file for 'QTAgent32.exe' (960)</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="LMS100-XP\ToolboxST_111129_104547796_5544.iTrace">IntelliTrace file for 'ToolboxST.exe' (5544)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb5a7126-3782-44dd-9d38-0223813c5cb4" testId="6369a7a5-6dc5-bc7e-e810-7cb9eef45ff5" testName="UpgradeBuildDownloadComponents" computerName="LMS100-XP" startTime="2011-11-29T10:45:53.1875000-05:00" endTime="2011-11-29T10:45:56.0781250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb5a7126-3782-44dd-9d38-0223813c5cb4" dataRowInfo="">
+      <TcmInformation testCaseId="9580" testRunId="3254" testResultId="100002" />
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

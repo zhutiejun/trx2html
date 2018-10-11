@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "997043",
+    "ThreadId": "432130",
+    "Html": "Hi,\r<br />\n<br />\nI have trx2html on d drive and I execute command as -\r<br />\n<br />\nD:&gt;cd D:\\share\\TRX2HTML_A\\0.6\r<br />\nD:\\share\\TRX2HTML_A\\0.6&gt;trx2html atul.mhetre_NTPC01395 2013-01-22 15_05_51.trx\r<br />\n<br />\nI got output as -\r<br />\ntrx2html.exe\r<br />\n  Create HTML reports of VSTS TestRuns. (c)rido'08\r<br />\nversion:0.6.0.2798\r<br />\n<br />\nUsage: trx2html &lt;TestResult&gt;.trx\r<br />\n<br />\nD:\\share\\TRX2HTML_A\\0.6&gt;\r<br />\n<br />\nBut no html file is generated. Please help me to generate html file.\r<br />\n<br />\nRegards, \r<br />\nAtul<br />\n",
+    "PostedDate": "2013-02-05T22:04:40.023-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
